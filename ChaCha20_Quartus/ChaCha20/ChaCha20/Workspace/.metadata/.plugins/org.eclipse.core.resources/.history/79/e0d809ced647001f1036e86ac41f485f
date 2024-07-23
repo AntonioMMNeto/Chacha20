@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define PIO_CHAR_OUT    (int*) 0x25030
+#define PIO_READY_OUT   (int*) 0x25020
+#define PIO_CHAR_IN     (int*) 0x25010
+#define PIO_READY_IN    (int*) 0x25000
+#define MEMORIA_DADOS   (int*) 0x20000
+
+int i, size;
+
+
+int main()
+{
+  char msg[65] = "123456789abcdefghi123456789";
+
+  // bit mais significativo: escrita terminada
+  // bit menos significativo: caractere pronto
+  *PIO_READY_OUT = 0b10;
+  *PIO_READY_OUT = 0b00;
+  for (i = 0; i < 28; i++) {
+	  *PIO_READY_OUT = 0b00;
+	  *PIO_CHAR_OUT = msg[i];
+	  *PIO_READY_OUT = 0b01;
+  }
+  *PIO_READY_OUT = 0b11;
+
+  return 0;
+}

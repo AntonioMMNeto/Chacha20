@@ -1,0 +1,1228 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do load_sim.tcl
+# obj/default/runtime/sim
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003.v -work avalon_st_adapter_003 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_width_adapter.sv -L altera_common_sv_packages -work MemoriaDados_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaDados_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work MemoriaDados_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux_001
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_demux
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:39 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux_001.sv -L altera_common_sv_packages -work cmd_mux_001 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux_001
+# End time: 22:11:39 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux_001
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_new
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(500): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(501): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(502): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(503): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(504): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(505): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(506): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(507): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(508): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(509): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(511): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(512): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(513): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(515): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(516): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(517): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(518): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(519): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(520): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(521): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(522): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(523): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(526): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(527): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(615): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(616): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(619): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(620): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(621): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(622): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(623): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(624): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(625): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(746): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(762): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(860): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(861): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(862): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(867): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(900): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(901): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(902): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(903): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(940): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(942): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(945): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(947): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1040): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1041): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1042): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1043): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1044): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1045): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1046): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1047): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1048): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1049): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1084): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1085): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1086): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1087): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1088): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1089): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1104): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1213): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1214): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1215): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1216): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1291): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1294): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_new
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 92
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_incr_burst_converter.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_incr_burst_converter
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_incr_burst_converter.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_incr_burst_converter.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_incr_burst_converter.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_incr_burst_converter.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_incr_burst_converter
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_wrap_burst_converter.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_wrap_burst_converter
+# 
+# Top level modules:
+# 	altera_wrap_burst_converter
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_default_burst_converter.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_default_burst_converter
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_default_burst_converter.sv(102): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_default_burst_converter
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:40 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work MemoriaDados_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 22:11:40 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005.sv -L altera_common_sv_packages -work router_005 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005_default_decode
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003.sv -L altera_common_sv_packages -work router_003 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003_default_decode
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002_default_decode
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001_default_decode
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router_default_decode
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0_router
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_avalon_sc_fifo.v -work jtag_uart_avalon_jtag_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work Processador_data_master_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work Processador_data_master_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v -work cpu 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_a_module
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_b_module
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_debug
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_break
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_xbrk
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dbrk
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_itrace
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_td_mode
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dtrace
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_pib
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_im
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_performance_monitors
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_avalon_reg
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram_module
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador_cpu_nios2_performance_monitors
+# 	SistemaEmbarcadoChaCha20_Processador_cpu
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_sysclk
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_tck
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_test_bench.v -work cpu 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 22:11:41 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:41 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module SistemaEmbarcadoChaCha20_irq_mapper
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_irq_mapper
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module SistemaEmbarcadoChaCha20_mm_interconnect_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_mm_interconnect_0
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_pio_ready_out.v -work pio_ready_out 
+# -- Compiling module SistemaEmbarcadoChaCha20_pio_ready_out
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_pio_ready_out
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_pio_ready_in.v -work pio_ready_in 
+# -- Compiling module SistemaEmbarcadoChaCha20_pio_ready_in
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_pio_ready_in
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_pio_char_out.v -work pio_char_out 
+# -- Compiling module SistemaEmbarcadoChaCha20_pio_char_out
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_pio_char_out
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_pio_char_in.v -work pio_char_in 
+# -- Compiling module SistemaEmbarcadoChaCha20_pio_char_in
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_pio_char_in
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v -work jtag_uart 
+# -- Compiling module SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_w
+# -- Compiling module SistemaEmbarcadoChaCha20_jtag_uart_scfifo_w
+# -- Compiling module SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_r
+# -- Compiling module SistemaEmbarcadoChaCha20_jtag_uart_scfifo_r
+# -- Compiling module SistemaEmbarcadoChaCha20_jtag_uart
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_jtag_uart
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador.v -work Processador 
+# -- Compiling module SistemaEmbarcadoChaCha20_Processador
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_Processador
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v -work MemoriaPrograma 
+# -- Compiling module SistemaEmbarcadoChaCha20_MemoriaPrograma
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_MemoriaPrograma
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v -work MemoriaDados 
+# -- Compiling module SistemaEmbarcadoChaCha20_MemoriaDados
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_MemoriaDados
+# End time: 22:11:42 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:42 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_conduit_bfm_0004.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_pio_ready_out_bfm 
+# -- Compiling module altera_conduit_bfm_0004
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm_0004
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_conduit_bfm_0003.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_pio_ready_in_bfm 
+# -- Compiling module altera_conduit_bfm_0003
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm_0003
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_conduit_bfm_0002.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_pio_char_out_bfm 
+# -- Compiling module altera_conduit_bfm_0002
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm_0002
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_pio_char_in_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 -sv C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work SistemaEmbarcadoChaCha20_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v -work SistemaEmbarcadoChaCha20_inst 
+# -- Compiling module SistemaEmbarcadoChaCha20
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:11:43 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/SistemaEmbarcadoChaCha20_tb.v 
+# -- Compiling module SistemaEmbarcadoChaCha20_tb
+# 
+# Top level modules:
+# 	SistemaEmbarcadoChaCha20_tb
+# End time: 22:11:43 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter_003 -L avalon_st_adapter -L MemoriaDados_s1_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_001 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L MemoriaDados_s1_burst_adapter -L router_005 -L router_003 -L router_002 -L router_001 -L router -L jtag_uart_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_avalon_jtag_slave_agent -L Processador_data_master_agent -L jtag_uart_avalon_jtag_slave_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L pio_ready_out -L pio_ready_in -L pio_char_out -L pio_char_in -L jtag_uart -L Processador -L MemoriaPrograma -L MemoriaDados -L SistemaEmbarcadoChaCha20_inst_reset_bfm -L SistemaEmbarcadoChaCha20_inst_pio_ready_out_bfm -L SistemaEmbarcadoChaCha20_inst_pio_ready_in_bfm -L SistemaEmbarcadoChaCha20_inst_pio_char_out_bfm -L SistemaEmbarcadoChaCha20_inst_pio_char_in_bfm -L SistemaEmbarcadoChaCha20_inst_clk_bfm -L SistemaEmbarcadoChaCha20_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SistemaEmbarcadoChaCha20_tb 
+# Start time: 22:11:43 on Apr 23,2024
+# Loading work.SistemaEmbarcadoChaCha20_tb
+# Loading SistemaEmbarcadoChaCha20_inst.SistemaEmbarcadoChaCha20
+# Loading MemoriaDados.SistemaEmbarcadoChaCha20_MemoriaDados
+# Loading altera_mf_ver.altsyncram
+# Loading MemoriaPrograma.SistemaEmbarcadoChaCha20_MemoriaPrograma
+# Loading Processador.SistemaEmbarcadoChaCha20_Processador
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_a_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_b_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_break
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_xbrk
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dbrk
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_itrace
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dtrace
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_td_mode
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_pib
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_im
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_avalon_reg
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_tck
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_sysclk
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_scfifo_r
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_r
+# Loading pio_char_in.SistemaEmbarcadoChaCha20_pio_char_in
+# Loading pio_char_out.SistemaEmbarcadoChaCha20_pio_char_out
+# Loading pio_ready_in.SistemaEmbarcadoChaCha20_pio_ready_in
+# Loading pio_ready_out.SistemaEmbarcadoChaCha20_pio_ready_out
+# Loading mm_interconnect_0.SistemaEmbarcadoChaCha20_mm_interconnect_0
+# Loading sv_std.std
+# Loading Processador_data_master_translator.altera_merlin_master_translator
+# Loading jtag_uart_avalon_jtag_slave_translator.altera_merlin_slave_translator
+# Loading Processador_data_master_agent.altera_merlin_master_agent
+# Loading jtag_uart_avalon_jtag_slave_agent.altera_merlin_slave_agent
+# Loading jtag_uart_avalon_jtag_slave_agent.altera_merlin_burst_uncompressor
+# Loading jtag_uart_avalon_jtag_slave_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.SistemaEmbarcadoChaCha20_mm_interconnect_0_router
+# Loading router.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_default_decode
+# Loading router_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001
+# Loading router_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001_default_decode
+# Loading router_002.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002
+# Loading router_002.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002_default_decode
+# Loading router_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003
+# Loading router_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003_default_decode
+# Loading router_005.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005
+# Loading router_005.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005_default_decode
+# Loading MemoriaDados_s1_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux_001
+# Loading cmd_mux_001.altera_merlin_arbitrator
+# Loading cmd_mux_001.altera_merlin_arb_adder
+# Loading rsp_demux.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading MemoriaDados_s1_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003
+# Loading error_adapter_0.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0
+# Loading irq_mapper.SistemaEmbarcadoChaCha20_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading SistemaEmbarcadoChaCha20_inst_clk_bfm.altera_avalon_clock_source
+# Loading SistemaEmbarcadoChaCha20_inst_pio_char_in_bfm.altera_conduit_bfm
+# Loading SistemaEmbarcadoChaCha20_inst_pio_char_out_bfm.altera_conduit_bfm_0002
+# Loading SistemaEmbarcadoChaCha20_inst_pio_ready_in_bfm.altera_conduit_bfm_0003
+# Loading SistemaEmbarcadoChaCha20_inst_pio_ready_out_bfm.altera_conduit_bfm_0004
+# Loading SistemaEmbarcadoChaCha20_inst_reset_bfm.altera_avalon_reset_source
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading MemoriaDados_s1_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading MemoriaDados_s1_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/memoriadados/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/memoriaprograma/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_itrace File: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem/SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/jtag_uart File: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: Design size of 11243 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+#  
+do simulacao.do
+# C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20.v 
+# -- Compiling module ChaCha20
+# 
+# Top level modules:
+# 	ChaCha20
+# End time: 22:12:24 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:12:24 on Apr 23,2024
+# vlog -reportprogress 300 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20TB.v 
+# -- Compiling module ChaCha20TB
+# 
+# Top level modules:
+# 	ChaCha20TB
+# End time: 22:12:24 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# End time: 22:12:25 on Apr 23,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 94
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter_003 -L avalon_st_adapter -L MemoriaDados_s1_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_001 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L MemoriaDados_s1_burst_adapter -L router_005 -L router_003 -L router_002 -L router_001 -L router -L jtag_uart_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_avalon_jtag_slave_agent -L Processador_data_master_agent -L jtag_uart_avalon_jtag_slave_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L pio_ready_out -L pio_ready_in -L pio_char_out -L pio_char_in -L jtag_uart -L Processador -L MemoriaPrograma -L MemoriaDados -L SistemaEmbarcadoChaCha20_inst_reset_bfm -L SistemaEmbarcadoChaCha20_inst_pio_ready_out_bfm -L SistemaEmbarcadoChaCha20_inst_pio_ready_in_bfm -L SistemaEmbarcadoChaCha20_inst_pio_char_out_bfm -L SistemaEmbarcadoChaCha20_inst_pio_char_in_bfm -L SistemaEmbarcadoChaCha20_inst_clk_bfm -L SistemaEmbarcadoChaCha20_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SistemaEmbarcadoChaCha20_tb 
+# Start time: 22:12:25 on Apr 23,2024
+# Loading work.SistemaEmbarcadoChaCha20_tb
+# Loading SistemaEmbarcadoChaCha20_inst.SistemaEmbarcadoChaCha20
+# Loading MemoriaDados.SistemaEmbarcadoChaCha20_MemoriaDados
+# Loading altera_mf_ver.altsyncram
+# Loading MemoriaPrograma.SistemaEmbarcadoChaCha20_MemoriaPrograma
+# Loading Processador.SistemaEmbarcadoChaCha20_Processador
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_a_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_b_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_break
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_xbrk
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dbrk
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_itrace
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_dtrace
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_td_mode
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_pib
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_im
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_avalon_reg
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram_module
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_tck
+# Loading cpu.SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_sysclk
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_scfifo_r
+# Loading jtag_uart.SistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_r
+# Loading pio_char_in.SistemaEmbarcadoChaCha20_pio_char_in
+# Loading pio_char_out.SistemaEmbarcadoChaCha20_pio_char_out
+# Loading pio_ready_in.SistemaEmbarcadoChaCha20_pio_ready_in
+# Loading pio_ready_out.SistemaEmbarcadoChaCha20_pio_ready_out
+# Loading mm_interconnect_0.SistemaEmbarcadoChaCha20_mm_interconnect_0
+# Loading sv_std.std
+# Loading Processador_data_master_translator.altera_merlin_master_translator
+# Loading jtag_uart_avalon_jtag_slave_translator.altera_merlin_slave_translator
+# Loading Processador_data_master_agent.altera_merlin_master_agent
+# Loading jtag_uart_avalon_jtag_slave_agent.altera_merlin_slave_agent
+# Loading jtag_uart_avalon_jtag_slave_agent.altera_merlin_burst_uncompressor
+# Loading jtag_uart_avalon_jtag_slave_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.SistemaEmbarcadoChaCha20_mm_interconnect_0_router
+# Loading router.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_default_decode
+# Loading router_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001
+# Loading router_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_001_default_decode
+# Loading router_002.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002
+# Loading router_002.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_002_default_decode
+# Loading router_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003
+# Loading router_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_003_default_decode
+# Loading router_005.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005
+# Loading router_005.SistemaEmbarcadoChaCha20_mm_interconnect_0_router_005_default_decode
+# Loading MemoriaDados_s1_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_cmd_mux_001
+# Loading cmd_mux_001.altera_merlin_arbitrator
+# Loading cmd_mux_001.altera_merlin_arb_adder
+# Loading rsp_demux.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.SistemaEmbarcadoChaCha20_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading MemoriaDados_s1_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_003.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003
+# Loading error_adapter_0.SistemaEmbarcadoChaCha20_mm_interconnect_0_avalon_st_adapter_003_error_adapter_0
+# Loading irq_mapper.SistemaEmbarcadoChaCha20_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading SistemaEmbarcadoChaCha20_inst_clk_bfm.altera_avalon_clock_source
+# Loading SistemaEmbarcadoChaCha20_inst_pio_char_in_bfm.altera_conduit_bfm
+# Loading SistemaEmbarcadoChaCha20_inst_pio_char_out_bfm.altera_conduit_bfm_0002
+# Loading SistemaEmbarcadoChaCha20_inst_pio_ready_in_bfm.altera_conduit_bfm_0003
+# Loading SistemaEmbarcadoChaCha20_inst_pio_ready_out_bfm.altera_conduit_bfm_0004
+# Loading SistemaEmbarcadoChaCha20_inst_reset_bfm.altera_avalon_reset_source
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading MemoriaDados_s1_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading MemoriaDados_s1_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/memoriadados/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaDados.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/memoriaprograma/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_MemoriaPrograma.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/SistemaEmbarcadoChaCha20_Processador_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci_itrace File: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci/the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem/SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/jtag_uart File: C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20.v(133): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: Design size of 11243 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run 2ms
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst.memoriadados.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst.memoriaprograma.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst.processador.cpu.the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci.the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_ocimem.SistemaEmbarcadoChaCha20_Processador_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.reset_assert: Reset asserted
+#               990000: INFO: SistemaEmbarcadoChaCha20_tb.sistemaembarcadochacha20_inst_reset_bfm.reset_deassert: Reset deasserted
+# 1270 ns: ERROR: SistemaEmbarcadoChaCha20_Processador_cpu_test_bench/i_readdata is 'x'
+# ** Note: $stop    : C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_test_bench.v(614)
+#    Time: 1270 ns  Iteration: 1  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# Break in Module SistemaEmbarcadoChaCha20_Processador_cpu_test_bench at C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_test_bench.v line 614
+run -all
+# 1350 ns: ERROR: SistemaEmbarcadoChaCha20_Processador_cpu_test_bench/E_valid is 'x'
+# ** Note: $stop    : C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_test_bench.v(472)
+#    Time: 1350 ns  Iteration: 1  Instance: /SistemaEmbarcadoChaCha20_tb/sistemaembarcadochacha20_inst/processador/cpu/the_SistemaEmbarcadoChaCha20_Processador_cpu_test_bench
+# Break in Module SistemaEmbarcadoChaCha20_Processador_cpu_test_bench at C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_Processador_cpu_test_bench.v line 472
+# End time: 22:38:06 on Apr 23,2024, Elapsed time: 0:25:41
+# Errors: 0, Warnings: 94

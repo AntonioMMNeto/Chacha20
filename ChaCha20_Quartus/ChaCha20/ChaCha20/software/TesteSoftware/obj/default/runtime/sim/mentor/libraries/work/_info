@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projetos/Quartus/ChaCha20/software/TesteSoftware/obj/default/runtime/sim/mentor
+vChaCha20
+Z1 !s110 1713921144
+!i10b 1
+!s100 LHkiOY2KU;>Xh]DjNi0^82
+IM<l2ZoUkl_kj=f5G[oz8R1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713918199
+8C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20.v
+FC:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20.v
+L0 19
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713921144.000000
+!s107 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20.v|
+!i113 1
+Z5 tCvgOpt 0
+n@cha@cha20
+vChaCha20TB
+R1
+!i10b 1
+!s100 7aNK1RVQEBKRSC]KFB96@0
+IH5IoWQC:`?5`b5H[HM0SL3
+R2
+R0
+w1713919557
+8C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20TB.v
+FC:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20TB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20TB.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/mentor/../../../ChaCha20TB.v|
+!i113 1
+R5
+n@cha@cha20@t@b
+vSistemaEmbarcadoChaCha20_tb
+!s110 1713921103
+!i10b 1
+!s100 D3?Lle@2ge`U7XCYFNO0Q1
+IiO`Q2g`^c<_IC1oNjad4K1
+R2
+R0
+w1713920753
+8C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/SistemaEmbarcadoChaCha20_tb.v
+FC:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/SistemaEmbarcadoChaCha20_tb.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1713921103.000000
+!s107 C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/SistemaEmbarcadoChaCha20_tb.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/SistemaEmbarcadoChaCha20_tb.v|
+!i113 1
+R5
+n@sistema@embarcado@cha@cha20_tb

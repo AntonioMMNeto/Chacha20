@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Documentos/UFBA/Lab_Integrado_IV/ChaCha20_Quartus/ChaCha20/ChaCha20/software/ChaCha20/obj/default/runtime/sim/mentor
+vSistemaEmbarcadoChaCha20_jtag_uart
+Z1 !s110 1721692489
+!i10b 1
+!s100 314=IJAH9TQA;GOL948;73
+IBHWFE4SQ_nldPiXM9jPjO1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1721596969
+Z4 8F:/Documentos/UFBA/Lab_Integrado_IV/ChaCha20_Quartus/ChaCha20/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v
+Z5 FF:/Documentos/UFBA/Lab_Integrado_IV/ChaCha20_Quartus/ChaCha20/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1721692489.000000
+Z8 !s107 F:/Documentos/UFBA/Lab_Integrado_IV/ChaCha20_Quartus/ChaCha20/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v|
+Z9 !s90 -reportprogress|300|F:/Documentos/UFBA/Lab_Integrado_IV/ChaCha20_Quartus/ChaCha20/ChaCha20/SistemaEmbarcadoChaCha20/testbench/SistemaEmbarcadoChaCha20_tb/simulation/submodules/SistemaEmbarcadoChaCha20_jtag_uart.v|-work|jtag_uart|
+!i113 1
+Z10 o-work jtag_uart
+Z11 tCvgOpt 0
+n@sistema@embarcado@cha@cha20_jtag_uart
+vSistemaEmbarcadoChaCha20_jtag_uart_scfifo_r
+R1
+!i10b 1
+!s100 anLzTjT`@[3bRF9OfN_O^1
+IJ@lCEHno_?PFg7hUAJVdV2
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha20_jtag_uart_scfifo_r
+vSistemaEmbarcadoChaCha20_jtag_uart_scfifo_w
+R1
+!i10b 1
+!s100 bf=[=ZeR?bFo?OKR@`b>=2
+IBol<N[1zLAh4LIkF834[l0
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha20_jtag_uart_scfifo_w
+vSistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_r
+R1
+!i10b 1
+!s100 La`3A6X?FLT@TM=2EbJgl0
+IH07E]:WEHHoMEKOLSNd=:1
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha20_jtag_uart_sim_scfifo_r
+vSistemaEmbarcadoChaCha20_jtag_uart_sim_scfifo_w
+R1
+!i10b 1
+!s100 ]cAnoLGcDznBf7@RciU6f1
+INI8M;70NVC[m7_WgOoN=82
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha20_jtag_uart_sim_scfifo_w

@@ -1,0 +1,11 @@
+	component SistemaEmbarcadoChaCha20 is
+		port (
+			clk_clk              : in  std_logic                    := 'X';             -- clk
+			pio_char_in_export   : in  std_logic_vector(7 downto 0) := (others => 'X'); -- export
+			pio_char_out_export  : out std_logic_vector(7 downto 0);                    -- export
+			pio_ready_in_export  : in  std_logic_vector(1 downto 0) := (others => 'X'); -- export
+			pio_ready_out_export : out std_logic_vector(1 downto 0);                    -- export
+			reset_reset_n        : in  std_logic                    := 'X'              -- reset_n
+		);
+	end component SistemaEmbarcadoChaCha20;
+
