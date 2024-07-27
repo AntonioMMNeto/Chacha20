@@ -3,7 +3,7 @@
 # Machine generated for CPU 'Processador' in SOPC Builder design 'SistemaEmbarcadoChaCha20'
 # SOPC Builder design path: ../../SistemaEmbarcadoChaCha20.sopcinfo
 #
-# Generated: Tue Jul 23 19:44:37 BRT 2024
+# Generated: Sat Jul 27 16:33:33 BRT 2024
 
 # DO NOT MODIFY THIS FILE
 #
@@ -47,7 +47,7 @@
 # by allowing GDB to cache memory contents on the host.
 
 # MemoriaDados
-memory 0x0 0x4000 cache
+memory 0x0 0x20000 cache
 
 # MemoriaPrograma
-memory 0x80000 0xc0000 cache
+memory 0x40000 0x60000 cache

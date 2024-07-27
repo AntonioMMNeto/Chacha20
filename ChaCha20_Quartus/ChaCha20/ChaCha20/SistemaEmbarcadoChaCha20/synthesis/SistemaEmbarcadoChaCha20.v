@@ -15,14 +15,14 @@ module SistemaEmbarcadoChaCha20 (
 	wire  [31:0] processador_data_master_readdata;                          // mm_interconnect_0:Processador_data_master_readdata -> Processador:d_readdata
 	wire         processador_data_master_waitrequest;                       // mm_interconnect_0:Processador_data_master_waitrequest -> Processador:d_waitrequest
 	wire         processador_data_master_debugaccess;                       // Processador:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:Processador_data_master_debugaccess
-	wire  [19:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
+	wire  [18:0] processador_data_master_address;                           // Processador:d_address -> mm_interconnect_0:Processador_data_master_address
 	wire   [3:0] processador_data_master_byteenable;                        // Processador:d_byteenable -> mm_interconnect_0:Processador_data_master_byteenable
 	wire         processador_data_master_read;                              // Processador:d_read -> mm_interconnect_0:Processador_data_master_read
 	wire         processador_data_master_write;                             // Processador:d_write -> mm_interconnect_0:Processador_data_master_write
 	wire  [31:0] processador_data_master_writedata;                         // Processador:d_writedata -> mm_interconnect_0:Processador_data_master_writedata
 	wire  [31:0] processador_instruction_master_readdata;                   // mm_interconnect_0:Processador_instruction_master_readdata -> Processador:i_readdata
 	wire         processador_instruction_master_waitrequest;                // mm_interconnect_0:Processador_instruction_master_waitrequest -> Processador:i_waitrequest
-	wire  [19:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
+	wire  [18:0] processador_instruction_master_address;                    // Processador:i_address -> mm_interconnect_0:Processador_instruction_master_address
 	wire         processador_instruction_master_read;                       // Processador:i_read -> mm_interconnect_0:Processador_instruction_master_read
 	wire         mm_interconnect_0_jtag_uart_avalon_jtag_slave_chipselect;  // mm_interconnect_0:jtag_uart_avalon_jtag_slave_chipselect -> jtag_uart:av_chipselect
 	wire  [31:0] mm_interconnect_0_jtag_uart_avalon_jtag_slave_readdata;    // jtag_uart:av_readdata -> mm_interconnect_0:jtag_uart_avalon_jtag_slave_readdata
@@ -41,17 +41,18 @@ module SistemaEmbarcadoChaCha20 (
 	wire  [31:0] mm_interconnect_0_processador_debug_mem_slave_writedata;   // mm_interconnect_0:Processador_debug_mem_slave_writedata -> Processador:debug_mem_slave_writedata
 	wire         mm_interconnect_0_memoriaprograma_s1_chipselect;           // mm_interconnect_0:MemoriaPrograma_s1_chipselect -> MemoriaPrograma:chipselect
 	wire  [31:0] mm_interconnect_0_memoriaprograma_s1_readdata;             // MemoriaPrograma:readdata -> mm_interconnect_0:MemoriaPrograma_s1_readdata
-	wire  [15:0] mm_interconnect_0_memoriaprograma_s1_address;              // mm_interconnect_0:MemoriaPrograma_s1_address -> MemoriaPrograma:address
+	wire  [14:0] mm_interconnect_0_memoriaprograma_s1_address;              // mm_interconnect_0:MemoriaPrograma_s1_address -> MemoriaPrograma:address
 	wire   [3:0] mm_interconnect_0_memoriaprograma_s1_byteenable;           // mm_interconnect_0:MemoriaPrograma_s1_byteenable -> MemoriaPrograma:byteenable
 	wire         mm_interconnect_0_memoriaprograma_s1_write;                // mm_interconnect_0:MemoriaPrograma_s1_write -> MemoriaPrograma:write
 	wire  [31:0] mm_interconnect_0_memoriaprograma_s1_writedata;            // mm_interconnect_0:MemoriaPrograma_s1_writedata -> MemoriaPrograma:writedata
 	wire         mm_interconnect_0_memoriaprograma_s1_clken;                // mm_interconnect_0:MemoriaPrograma_s1_clken -> MemoriaPrograma:clken
 	wire         mm_interconnect_0_memoriadados_s1_chipselect;              // mm_interconnect_0:MemoriaDados_s1_chipselect -> MemoriaDados:chipselect
-	wire   [7:0] mm_interconnect_0_memoriadados_s1_readdata;                // MemoriaDados:readdata -> mm_interconnect_0:MemoriaDados_s1_readdata
+	wire  [31:0] mm_interconnect_0_memoriadados_s1_readdata;                // MemoriaDados:readdata -> mm_interconnect_0:MemoriaDados_s1_readdata
 	wire         mm_interconnect_0_memoriadados_s1_debugaccess;             // mm_interconnect_0:MemoriaDados_s1_debugaccess -> MemoriaDados:debugaccess
-	wire  [13:0] mm_interconnect_0_memoriadados_s1_address;                 // mm_interconnect_0:MemoriaDados_s1_address -> MemoriaDados:address
+	wire  [14:0] mm_interconnect_0_memoriadados_s1_address;                 // mm_interconnect_0:MemoriaDados_s1_address -> MemoriaDados:address
+	wire   [3:0] mm_interconnect_0_memoriadados_s1_byteenable;              // mm_interconnect_0:MemoriaDados_s1_byteenable -> MemoriaDados:byteenable
 	wire         mm_interconnect_0_memoriadados_s1_write;                   // mm_interconnect_0:MemoriaDados_s1_write -> MemoriaDados:write
-	wire   [7:0] mm_interconnect_0_memoriadados_s1_writedata;               // mm_interconnect_0:MemoriaDados_s1_writedata -> MemoriaDados:writedata
+	wire  [31:0] mm_interconnect_0_memoriadados_s1_writedata;               // mm_interconnect_0:MemoriaDados_s1_writedata -> MemoriaDados:writedata
 	wire         mm_interconnect_0_memoriadados_s1_clken;                   // mm_interconnect_0:MemoriaDados_s1_clken -> MemoriaDados:clken
 	wire         mm_interconnect_0_pio_char_out_s1_chipselect;              // mm_interconnect_0:pio_char_out_s1_chipselect -> pio_char_out:chipselect
 	wire  [31:0] mm_interconnect_0_pio_char_out_s1_readdata;                // pio_char_out:readdata -> mm_interconnect_0:pio_char_out_s1_readdata
@@ -82,6 +83,7 @@ module SistemaEmbarcadoChaCha20 (
 		.write       (mm_interconnect_0_memoriadados_s1_write),       //       .write
 		.readdata    (mm_interconnect_0_memoriadados_s1_readdata),    //       .readdata
 		.writedata   (mm_interconnect_0_memoriadados_s1_writedata),   //       .writedata
+		.byteenable  (mm_interconnect_0_memoriadados_s1_byteenable),  //       .byteenable
 		.reset       (rst_controller_reset_out_reset),                // reset1.reset
 		.reset_req   (rst_controller_reset_out_reset_req),            //       .reset_req
 		.freeze      (1'b0)                                           // (terminated)
@@ -207,6 +209,7 @@ module SistemaEmbarcadoChaCha20 (
 		.MemoriaDados_s1_write                         (mm_interconnect_0_memoriadados_s1_write),                   //                                        .write
 		.MemoriaDados_s1_readdata                      (mm_interconnect_0_memoriadados_s1_readdata),                //                                        .readdata
 		.MemoriaDados_s1_writedata                     (mm_interconnect_0_memoriadados_s1_writedata),               //                                        .writedata
+		.MemoriaDados_s1_byteenable                    (mm_interconnect_0_memoriadados_s1_byteenable),              //                                        .byteenable
 		.MemoriaDados_s1_chipselect                    (mm_interconnect_0_memoriadados_s1_chipselect),              //                                        .chipselect
 		.MemoriaDados_s1_clken                         (mm_interconnect_0_memoriadados_s1_clken),                   //                                        .clken
 		.MemoriaDados_s1_debugaccess                   (mm_interconnect_0_memoriadados_s1_debugaccess),             //                                        .debugaccess

@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.07.23.19:40:53 -->
+ <!-- 2024.07.27.16:13:14 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1721774453</value>
+  <value>1722107594</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -108,7 +108,7 @@
 the requested settings for a module instance. -->
   <assignment>
    <name>embeddedsw.CMacro.ALLOW_IN_SYSTEM_MEMORY_CONTENT_EDITOR</name>
-   <value>0</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.ALLOW_MRAM_SIM_CONTENTS_ONLY_FILE</name>
@@ -128,7 +128,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_CONTENTS_FILE</name>
-   <value>SistemaEmbarcadoChaCha20_MemoriaDados</value>
+   <value>MemoriaDados</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
@@ -136,11 +136,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INSTANCE_ID</name>
-   <value>NONE</value>
+   <value>ROM</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.NON_DEFAULT_INIT_FILE_ENABLED</name>
-   <value>0</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.RAM_BLOCK_TYPE</name>
@@ -160,7 +160,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SIZE_VALUE</name>
-   <value>16384</value>
+   <value>131072</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.WRITABLE</name>
@@ -188,11 +188,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_DATA_WIDTH</name>
-   <value>8</value>
+   <value>32</value>
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_FILENAME</name>
-   <value>SistemaEmbarcadoChaCha20_MemoriaDados</value>
+   <value>MemoriaDados</value>
   </assignment>
   <assignment>
    <name>postgeneration.simulation.init_file.param_name</name>
@@ -204,7 +204,7 @@ the requested settings for a module instance. -->
   </assignment>
   <parameter name="allowInSystemMemoryContentEditor">
    <type>boolean</type>
-   <value>false</value>
+   <value>true</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -220,7 +220,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataWidth">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -268,9 +268,9 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="initializationFileName">
    <type>java.lang.String</type>
-   <value>onchip_mem.hex</value>
+   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif</value>
    <derived>false</derived>
-   <enabled>false</enabled>
+   <enabled>true</enabled>
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
@@ -284,15 +284,15 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instanceID">
    <type>java.lang.String</type>
-   <value>NONE</value>
+   <value>ROM</value>
    <derived>false</derived>
-   <enabled>false</enabled>
+   <enabled>true</enabled>
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
   <parameter name="memorySize">
    <type>long</type>
-   <value>16384</value>
+   <value>131072</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -356,7 +356,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="useNonDefaultInitFile">
    <type>boolean</type>
-   <value>false</value>
+   <value>true</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -366,7 +366,7 @@ the requested settings for a module instance. -->
    <type>boolean</type>
    <value>false</value>
    <derived>false</derived>
-   <enabled>false</enabled>
+   <enabled>true</enabled>
    <visible>false</visible>
    <valid>true</valid>
   </parameter>
@@ -431,7 +431,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width">
    <type>int</type>
-   <value>14</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -439,7 +439,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width2">
    <type>int</type>
-   <value>14</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -447,7 +447,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_data_width">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -455,7 +455,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_data_width2">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -479,7 +479,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>SistemaEmbarcadoChaCha20_MemoriaDados.hex</value>
+   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -576,7 +576,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>16384</value>
+    <value>131072</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -664,7 +664,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="explicitAddressSpan">
     <type>java.math.BigInteger</type>
-    <value>16384</value>
+    <value>131072</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -875,7 +875,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>address</name>
     <direction>Input</direction>
-    <width>14</width>
+    <width>15</width>
     <role>address</role>
    </port>
    <port>
@@ -905,14 +905,20 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>readdata</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>32</width>
     <role>readdata</role>
    </port>
    <port>
     <name>writedata</name>
     <direction>Input</direction>
-    <width>8</width>
+    <width>32</width>
     <role>writedata</role>
+   </port>
+   <port>
+    <name>byteenable</name>
+    <direction>Input</direction>
+    <width>4</width>
+    <role>byteenable</role>
    </port>
   </interface>
   <interface name="reset1" kind="reset_sink" version="18.1">
@@ -1004,7 +1010,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INSTANCE_ID</name>
-   <value>NONE</value>
+   <value>RAM</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.NON_DEFAULT_INIT_FILE_ENABLED</name>
@@ -1028,7 +1034,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SIZE_VALUE</name>
-   <value>262144</value>
+   <value>131072</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.WRITABLE</name>
@@ -1152,7 +1158,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instanceID">
    <type>java.lang.String</type>
-   <value>NONE</value>
+   <value>RAM</value>
    <derived>false</derived>
    <enabled>false</enabled>
    <visible>true</visible>
@@ -1160,7 +1166,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="memorySize">
    <type>long</type>
-   <value>262144</value>
+   <value>131072</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -1299,7 +1305,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width">
    <type>int</type>
-   <value>16</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1307,7 +1313,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width2">
    <type>int</type>
-   <value>16</value>
+   <value>15</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1444,7 +1450,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>262144</value>
+    <value>131072</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -1532,7 +1538,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="explicitAddressSpan">
     <type>java.math.BigInteger</type>
-    <value>262144</value>
+    <value>131072</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -1743,7 +1749,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>address</name>
     <direction>Input</direction>
-    <width>16</width>
+    <width>15</width>
     <role>address</role>
    </port>
    <port>
@@ -1852,7 +1858,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.BREAK_ADDR</name>
-   <value>0x00004820</value>
+   <value>0x00060820</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.CPU_ARCH_NIOS2_R1</name>
@@ -1876,7 +1882,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.DATA_ADDR_WIDTH</name>
-   <value>20</value>
+   <value>19</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.DCACHE_LINE_SIZE</name>
@@ -1892,7 +1898,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.EXCEPTION_ADDR</name>
-   <value>0x00080020</value>
+   <value>0x00040020</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.FLASH_ACCELERATOR_LINES</name>
@@ -1948,7 +1954,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INST_ADDR_WIDTH</name>
-   <value>20</value>
+   <value>19</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.OCI_VERSION</name>
@@ -1956,7 +1962,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.RESET_ADDR</name>
-   <value>0x00080000</value>
+   <value>0x00040000</value>
   </assignment>
   <assignment>
    <name>embeddedsw.configuration.DataCacheVictimBufImpl</name>
@@ -2008,7 +2014,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.altr,exception-addr</name>
-   <value>0x00080020</value>
+   <value>0x00040020</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.altr,implementation</name>
@@ -2016,7 +2022,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.altr,reset-addr</name>
-   <value>0x00080000</value>
+   <value>0x00040000</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.clock-frequency</name>
@@ -3172,7 +3178,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="resetAbsoluteAddr">
    <type>int</type>
-   <value>524288</value>
+   <value>262144</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -3180,7 +3186,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="exceptionAbsoluteAddr">
    <type>int</type>
-   <value>524320</value>
+   <value>262176</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -3188,7 +3194,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="breakAbsoluteAddr">
    <type>int</type>
-   <value>18464</value>
+   <value>395296</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3300,7 +3306,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instAddrWidth">
    <type>int</type>
-   <value>20</value>
+   <value>19</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3320,7 +3326,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataAddrWidth">
    <type>int</type>
-   <value>20</value>
+   <value>19</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3430,7 +3436,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='Processador.debug_mem_slave' start='0x4800' end='0x5000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='MemoriaPrograma.s1' start='0x80000' end='0xC0000' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='MemoriaPrograma.s1' start='0x40000' end='0x60000' type='altera_avalon_onchip_memory2.s1' /><slave name='Processador.debug_mem_slave' start='0x60800' end='0x61000' type='altera_nios2_gen2.debug_mem_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3450,7 +3456,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='MemoriaDados.s1' start='0x0' end='0x4000' type='altera_avalon_onchip_memory2.s1' /><slave name='Processador.debug_mem_slave' start='0x4800' end='0x5000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='pio_ready_in.s1' start='0x5000' end='0x5010' type='altera_avalon_pio.s1' /><slave name='pio_char_in.s1' start='0x5010' end='0x5020' type='altera_avalon_pio.s1' /><slave name='pio_ready_out.s1' start='0x5020' end='0x5030' type='altera_avalon_pio.s1' /><slave name='pio_char_out.s1' start='0x5030' end='0x5040' type='altera_avalon_pio.s1' /><slave name='jtag_uart.avalon_jtag_slave' start='0x5040' end='0x5048' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='MemoriaPrograma.s1' start='0x80000' end='0xC0000' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='MemoriaDados.s1' start='0x0' end='0x20000' type='altera_avalon_onchip_memory2.s1' /><slave name='MemoriaPrograma.s1' start='0x40000' end='0x60000' type='altera_avalon_onchip_memory2.s1' /><slave name='Processador.debug_mem_slave' start='0x60800' end='0x61000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='pio_ready_in.s1' start='0x61000' end='0x61010' type='altera_avalon_pio.s1' /><slave name='pio_char_in.s1' start='0x61010' end='0x61020' type='altera_avalon_pio.s1' /><slave name='pio_ready_out.s1' start='0x61020' end='0x61030' type='altera_avalon_pio.s1' /><slave name='pio_char_out.s1' start='0x61030' end='0x61040' type='altera_avalon_pio.s1' /><slave name='jtag_uart.avalon_jtag_slave' start='0x61040' end='0x61048' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3579,7 +3585,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="internalIrqMaskSystemInfo">
    <type>long</type>
-   <value>128</value>
+   <value>1</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -4071,7 +4077,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>d_address</name>
     <direction>Output</direction>
-    <width>20</width>
+    <width>19</width>
     <role>address</role>
    </port>
    <port>
@@ -4121,7 +4127,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart</moduleName>
     <slaveName>avalon_jtag_slave</slaveName>
     <name>jtag_uart.avalon_jtag_slave</name>
-    <baseAddress>20544</baseAddress>
+    <baseAddress>397376</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -4129,7 +4135,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>Processador</moduleName>
     <slaveName>debug_mem_slave</slaveName>
     <name>Processador.debug_mem_slave</name>
-    <baseAddress>18432</baseAddress>
+    <baseAddress>395264</baseAddress>
     <span>2048</span>
    </memoryBlock>
    <memoryBlock>
@@ -4137,8 +4143,8 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>MemoriaPrograma</moduleName>
     <slaveName>s1</slaveName>
     <name>MemoriaPrograma.s1</name>
-    <baseAddress>524288</baseAddress>
-    <span>262144</span>
+    <baseAddress>262144</baseAddress>
+    <span>131072</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -4146,14 +4152,14 @@ parameters are a RESULT of the module parameters. -->
     <slaveName>s1</slaveName>
     <name>MemoriaDados.s1</name>
     <baseAddress>0</baseAddress>
-    <span>16384</span>
+    <span>131072</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
     <moduleName>pio_char_out</moduleName>
     <slaveName>s1</slaveName>
     <name>pio_char_out.s1</name>
-    <baseAddress>20528</baseAddress>
+    <baseAddress>397360</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -4161,7 +4167,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>pio_ready_out</moduleName>
     <slaveName>s1</slaveName>
     <name>pio_ready_out.s1</name>
-    <baseAddress>20512</baseAddress>
+    <baseAddress>397344</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -4169,7 +4175,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>pio_char_in</moduleName>
     <slaveName>s1</slaveName>
     <name>pio_char_in.s1</name>
-    <baseAddress>20496</baseAddress>
+    <baseAddress>397328</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -4177,7 +4183,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>pio_ready_in</moduleName>
     <slaveName>s1</slaveName>
     <name>pio_ready_in.s1</name>
-    <baseAddress>20480</baseAddress>
+    <baseAddress>397312</baseAddress>
     <span>16</span>
    </memoryBlock>
   </interface>
@@ -4446,7 +4452,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>i_address</name>
     <direction>Output</direction>
-    <width>20</width>
+    <width>19</width>
     <role>address</role>
    </port>
    <port>
@@ -4472,7 +4478,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>Processador</moduleName>
     <slaveName>debug_mem_slave</slaveName>
     <name>Processador.debug_mem_slave</name>
-    <baseAddress>18432</baseAddress>
+    <baseAddress>395264</baseAddress>
     <span>2048</span>
    </memoryBlock>
    <memoryBlock>
@@ -4480,8 +4486,8 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>MemoriaPrograma</moduleName>
     <slaveName>s1</slaveName>
     <name>MemoriaPrograma.s1</name>
-    <baseAddress>524288</baseAddress>
-    <span>262144</span>
+    <baseAddress>262144</baseAddress>
+    <span>131072</span>
    </memoryBlock>
   </interface>
   <interface name="irq" kind="interrupt_receiver" version="18.1">
@@ -4557,7 +4563,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart</moduleName>
     <slaveName>irq</slaveName>
     <name>jtag_uart.irq</name>
-    <interruptNumber>7</interruptNumber>
+    <interruptNumber>0</interruptNumber>
    </interrupt>
   </interface>
   <interface name="debug_reset_request" kind="reset_source" version="18.1">
@@ -9270,7 +9276,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x5040</value>
+   <value>0x00061040</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9321,7 +9327,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x4800</value>
+   <value>0x00060800</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9372,7 +9378,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00080000</value>
+   <value>0x00040000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9474,7 +9480,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x5030</value>
+   <value>0x00061030</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9525,7 +9531,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x5020</value>
+   <value>0x00061020</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9576,7 +9582,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x5010</value>
+   <value>0x00061010</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9627,7 +9633,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x5000</value>
+   <value>0x00061000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9678,7 +9684,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x4800</value>
+   <value>0x00060800</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9729,7 +9735,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00080000</value>
+   <value>0x00040000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9988,7 +9994,7 @@ parameters are a RESULT of the module parameters. -->
    end="jtag_uart.irq">
   <parameter name="irqNumber">
    <type>int</type>
-   <value>7</value>
+   <value>0</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

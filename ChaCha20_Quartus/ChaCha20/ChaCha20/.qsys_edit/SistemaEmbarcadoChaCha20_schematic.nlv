@@ -14,14 +14,14 @@ preplace inst SistemaEmbarcadoChaCha20.pio_char_in -pg 1 -lvl 3 -y 650
 preplace inst SistemaEmbarcadoChaCha20.pio_ready_in -pg 1 -lvl 3 -y 450
 preplace inst SistemaEmbarcadoChaCha20.jtag_uart -pg 1 -lvl 3 -y 90
 preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.pio_ready_out,(SLAVE)pio_ready_out.external_connection) 1 0 3 NJ 580 NJ 580 NJ
-preplace netloc FAN_OUT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)jtag_uart.clk,(MASTER)clock.clk,(SLAVE)pio_ready_out.clk,(SLAVE)pio_ready_in.clk,(SLAVE)Processador.clk,(SLAVE)pio_char_in.clk,(SLAVE)MemoriaDados.clk1,(SLAVE)pio_char_out.clk,(SLAVE)MemoriaPrograma.clk1) 1 1 2 300 30 760
+preplace netloc FAN_OUT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)jtag_uart.clk,(SLAVE)pio_char_in.clk,(SLAVE)pio_char_out.clk,(SLAVE)pio_ready_out.clk,(SLAVE)MemoriaDados.clk1,(MASTER)clock.clk,(SLAVE)Processador.clk,(SLAVE)pio_ready_in.clk,(SLAVE)MemoriaPrograma.clk1) 1 1 2 300 30 760
+preplace netloc INTERCONNECT<net_container>SistemaEmbarcadoChaCha20</net_container>(MASTER)Processador.data_master,(SLAVE)MemoriaPrograma.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)MemoriaDados.s1,(SLAVE)pio_ready_in.s1,(SLAVE)Processador.debug_mem_slave,(SLAVE)pio_char_out.s1,(SLAVE)pio_ready_out.s1,(MASTER)Processador.instruction_master,(SLAVE)pio_char_in.s1) 1 1 2 340 50 720
+preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)clock.clk_in_reset,(SLAVE)SistemaEmbarcadoChaCha20.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.pio_char_out,(SLAVE)pio_char_out.external_connection) 1 0 3 NJ 380 NJ 380 NJ
+preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.pio_ready_in,(SLAVE)pio_ready_in.external_connection) 1 0 3 NJ 480 NJ 480 NJ
 preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.clk,(SLAVE)clock.clk_in) 1 0 1 NJ
-preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.reset,(SLAVE)clock.clk_in_reset) 1 0 1 NJ
-preplace netloc POINT_TO_POINT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)jtag_uart.irq,(MASTER)Processador.irq) 1 2 1 740
-preplace netloc INTERCONNECT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)pio_ready_in.reset,(MASTER)Processador.debug_reset_request,(SLAVE)MemoriaDados.reset1,(SLAVE)Processador.reset,(SLAVE)pio_ready_out.reset,(SLAVE)pio_char_in.reset,(MASTER)clock.clk_reset,(SLAVE)jtag_uart.reset,(SLAVE)pio_char_out.reset,(SLAVE)MemoriaPrograma.reset1) 1 1 2 320 70 700
-preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)pio_ready_in.external_connection,(SLAVE)SistemaEmbarcadoChaCha20.pio_ready_in) 1 0 3 NJ 480 NJ 480 NJ
-preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)SistemaEmbarcadoChaCha20.pio_char_in,(SLAVE)pio_char_in.external_connection) 1 0 3 NJ 680 NJ 680 NJ
-preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)pio_char_out.external_connection,(SLAVE)SistemaEmbarcadoChaCha20.pio_char_out) 1 0 3 NJ 380 NJ 380 NJ
-preplace netloc INTERCONNECT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)Processador.instruction_master,(SLAVE)Processador.debug_mem_slave,(SLAVE)pio_char_in.s1,(MASTER)Processador.data_master,(SLAVE)pio_char_out.s1,(SLAVE)pio_ready_out.s1,(SLAVE)pio_ready_in.s1,(SLAVE)MemoriaPrograma.s1,(SLAVE)MemoriaDados.s1) 1 1 2 340 50 720
+preplace netloc INTERCONNECT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)Processador.reset,(MASTER)clock.clk_reset,(SLAVE)MemoriaDados.reset1,(SLAVE)pio_char_out.reset,(SLAVE)pio_ready_out.reset,(SLAVE)pio_char_in.reset,(SLAVE)jtag_uart.reset,(SLAVE)pio_ready_in.reset,(SLAVE)MemoriaPrograma.reset1,(MASTER)Processador.debug_reset_request) 1 1 2 320 70 700
+preplace netloc POINT_TO_POINT<net_container>SistemaEmbarcadoChaCha20</net_container>(MASTER)Processador.irq,(SLAVE)jtag_uart.irq) 1 2 1 740
+preplace netloc EXPORT<net_container>SistemaEmbarcadoChaCha20</net_container>(SLAVE)pio_char_in.external_connection,(SLAVE)SistemaEmbarcadoChaCha20.pio_char_in) 1 0 3 NJ 680 NJ 680 NJ
 levelinfo -pg 1 0 90 970
 levelinfo -hier SistemaEmbarcadoChaCha20 100 130 460 810 960

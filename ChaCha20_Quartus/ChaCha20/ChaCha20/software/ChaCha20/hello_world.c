@@ -2,10 +2,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define PIO_CHAR_OUT    (int*) 0x05030
-#define PIO_READY_OUT   (int*) 0x05020
-#define PIO_CHAR_IN     (int*) 0x05010
-#define PIO_READY_IN    (int*) 0x05000
+#define PIO_CHAR_OUT    (int*) 0x61030
+#define PIO_READY_OUT   (int*) 0x61020
+#define PIO_CHAR_IN     (int*) 0x61010
+#define PIO_READY_IN    (int*) 0x61000
 #define MEMORIA_DADOS   (int*) 0x00000
 
 #define INT_BITS 32
@@ -19,7 +19,6 @@ unsigned int counter = 0x01;
 char block[64];
 void generate_nonce();
 
-
 void inner_block(unsigned int *state);
 void quarter_round(unsigned int *state, unsigned int a, unsigned int b, unsigned int c, unsigned int d);
 unsigned int left_rotate(unsigned int value, unsigned short int num_shifted);
@@ -28,16 +27,14 @@ void xor_message(char *message, char *encrypted_message);
 
 int main()
 {
-	char message[] = "Teste";
-	char *encrypted_message = calloc((strlen(message)+1) * sizeof(char), sizeof(char));
-	char *decrypted_message = calloc((strlen(message)+1) * sizeof(char), sizeof(char));
-
-	//printf("Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789Hello World!123456789123456789456789\n");
+	char message[] = "Nos dias seguintes";
+	char encrypted_message[512];
+	char *decrypted_message[512];
 
 	// Encrpyt message, xor with state
-	printf("Original message: %s\n", message);
+	//printf("Original message: %s\n", message);
 	xor_message(message, encrypted_message); // encrypt
-	printf("\nEncrypted_message Text: %s\n", encrypted_message);
+	//printf("\nEncrypted_message Text: %s\n", encrypted_message);
 	xor_message(encrypted_message, decrypted_message); // decrypt
 	printf("\nDecrypted Text: %s\n", decrypted_message);
 
@@ -46,17 +43,15 @@ int main()
 	// bit menos significativo: caractere pronto
 	*PIO_READY_OUT = 0b10;
 	*PIO_READY_OUT = 0b00;
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < strlen(message); i++) {
 	  *PIO_READY_OUT = 0b00;
 	  *PIO_CHAR_OUT = decrypted_message[i];
 	  *PIO_READY_OUT = 0b01;
 	}
 	*PIO_READY_OUT = 0b11;
 
-	free(encrypted_message);
-	free(decrypted_message);
 
-  return 0;
+	return 0;
 }
 
 void inner_block(unsigned int *state){

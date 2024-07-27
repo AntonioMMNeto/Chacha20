@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Tue Jul 23 19:42:41 2024
+Analysis & Synthesis Status : Successful - Sat Jul 27 16:15:03 2024
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : ChaCha20
 Top-level Entity Name : ChaCha20
 Family : Cyclone IV E
-Total logic elements : 2,137
-    Total combinational functions : 1,931
-    Dedicated logic registers : 1,027
-Total registers : 1027
+Total logic elements : 2,146
+    Total combinational functions : 1,946
+    Dedicated logic registers : 1,036
+Total registers : 1036
 Total pins : 22
 Total virtual pins : 0
-Total memory bits : 2,239,488
+Total memory bits : 2,108,416
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0

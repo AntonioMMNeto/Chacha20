@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Processador' in SOPC Builder design 'SistemaEmbarcadoChaCha20'
  * SOPC Builder design path: ../../SistemaEmbarcadoChaCha20.sopcinfo
  *
- * Generated: Tue Jul 23 19:44:37 BRT 2024
+ * Generated: Sat Jul 27 16:33:33 BRT 2024
  */
 
 /*
@@ -66,10 +66,10 @@
  */
 
 #define MEMORIADADOS_REGION_BASE 0x0
-#define MEMORIADADOS_REGION_SPAN 16384
-#define MEMORIAPROGRAMA_REGION_BASE 0x80020
-#define MEMORIAPROGRAMA_REGION_SPAN 262112
-#define RESET_REGION_BASE 0x80000
+#define MEMORIADADOS_REGION_SPAN 131072
+#define MEMORIAPROGRAMA_REGION_BASE 0x40020
+#define MEMORIAPROGRAMA_REGION_SPAN 131040
+#define RESET_REGION_BASE 0x40000
 #define RESET_REGION_SPAN 32
 
 

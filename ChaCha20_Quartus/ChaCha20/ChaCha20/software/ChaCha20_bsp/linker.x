@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Processador' in SOPC Builder design 'SistemaEmbarcadoChaCha20'
  * SOPC Builder design path: ../../SistemaEmbarcadoChaCha20.sopcinfo
  *
- * Generated: Tue Jul 23 19:44:37 BRT 2024
+ * Generated: Sat Jul 27 16:33:33 BRT 2024
  */
 
 /*
@@ -50,14 +50,14 @@
 
 MEMORY
 {
-    MemoriaDados : ORIGIN = 0x0, LENGTH = 16384
-    reset : ORIGIN = 0x80000, LENGTH = 32
-    MemoriaPrograma : ORIGIN = 0x80020, LENGTH = 262112
+    MemoriaDados : ORIGIN = 0x0, LENGTH = 131072
+    reset : ORIGIN = 0x40000, LENGTH = 32
+    MemoriaPrograma : ORIGIN = 0x40020, LENGTH = 131040
 }
 
 /* Define symbols for each memory base-address */
 __alt_mem_MemoriaDados = 0x0;
-__alt_mem_MemoriaPrograma = 0x80000;
+__alt_mem_MemoriaPrograma = 0x40000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",
@@ -386,7 +386,7 @@ SECTIONS
 /*
  * Don't override this, override the __alt_stack_* symbols instead.
  */
-__alt_data_end = 0xc0000;
+__alt_data_end = 0x60000;
 
 /*
  * The next two symbols define the location of the default stack.  You can
@@ -402,4 +402,4 @@ PROVIDE( __alt_stack_limit   = __alt_stack_base );
  * Override this symbol to put the heap in a different memory.
  */
 PROVIDE( __alt_heap_start    = end );
-PROVIDE( __alt_heap_limit    = 0xc0000 );
+PROVIDE( __alt_heap_limit    = 0x60000 );

@@ -1,5 +1,5 @@
 Flow report for ChaCha20
-Tue Jul 23 19:43:16 2024
+Sat Jul 27 16:15:38 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Jul 23 19:43:12 2024       ;
+; Flow Status                        ; Successful - Sat Jul 27 16:15:34 2024       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; ChaCha20                                    ;
 ; Top-level Entity Name              ; ChaCha20                                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 2,043 / 114,480 ( 2 % )                     ;
-;     Total combinational functions  ; 1,935 / 114,480 ( 2 % )                     ;
-;     Dedicated logic registers      ; 1,019 / 114,480 ( < 1 % )                   ;
-; Total registers                    ; 1029                                        ;
+; Total logic elements               ; 2,067 / 114,480 ( 2 % )                     ;
+;     Total combinational functions  ; 1,950 / 114,480 ( 2 % )                     ;
+;     Dedicated logic registers      ; 1,028 / 114,480 ( < 1 % )                   ;
+; Total registers                    ; 1038                                        ;
 ; Total pins                         ; 22 / 529 ( 4 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 2,239,488 / 3,981,312 ( 56 % )              ;
+; Total memory bits                  ; 2,108,416 / 3,981,312 ( 53 % )              ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/23/2024 19:41:58 ;
+; Start date & time ; 07/27/2024 16:14:19 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ChaCha20            ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------------------------------------------+---------------+--------------------------+------------+
 ; Assignment Name                      ; Value                                                                      ; Default Value ; Entity Name              ; Section Id ;
 +--------------------------------------+----------------------------------------------------------------------------+---------------+--------------------------+------------+
-; COMPILER_SIGNATURE_ID                ; 38923010049.172177451824092                                                ; --            ; --                       ; --         ;
+; COMPILER_SIGNATURE_ID                ; 38923010049.172210765829568                                                ; --            ; --                       ; --         ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                                                         ; --            ; --                       ; --         ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                                                          ; --            ; --                       ; --         ;
 ; MISC_FILE                            ; SistemaEmbarcadoChaCha20/synthesis/../SistemaEmbarcadoChaCha20.cmp         ; --            ; --                       ; --         ;
@@ -89,7 +89,7 @@ refer to the applicable agreement for further details.
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                               ; --            ; --                       ; --         ;
 ; SLD_FILE                             ; SistemaEmbarcadoChaCha20/synthesis/SistemaEmbarcadoChaCha20.regmap         ; --            ; --                       ; --         ;
 ; SLD_FILE                             ; SistemaEmbarcadoChaCha20/synthesis/SistemaEmbarcadoChaCha20.debuginfo      ; --            ; --                       ; --         ;
-; SLD_INFO                             ; QSYS_NAME SistemaEmbarcadoChaCha20 HAS_SOPCINFO 1 GENERATION_ID 1721774453 ; --            ; SistemaEmbarcadoChaCha20 ; --         ;
+; SLD_INFO                             ; QSYS_NAME SistemaEmbarcadoChaCha20 HAS_SOPCINFO 1 GENERATION_ID 1722107594 ; --            ; SistemaEmbarcadoChaCha20 ; --         ;
 ; SMART_RECOMPILE                      ; On                                                                         ; Off           ; --                       ; --         ;
 ; SOPCINFO_FILE                        ; SistemaEmbarcadoChaCha20/synthesis/../../SistemaEmbarcadoChaCha20.sopcinfo ; --            ; --                       ; --         ;
 ; SYNTHESIS_ONLY_QIP                   ; On                                                                         ; --            ; --                       ; --         ;
@@ -102,11 +102,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:41     ; 1.0                     ; 4937 MB             ; 00:00:31                           ;
-; Fitter               ; 00:00:20     ; 1.1                     ; 5751 MB             ; 00:00:15                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4712 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4849 MB             ; 00:00:01                           ;
-; Total                ; 00:01:09     ; --                      ; --                  ; 00:00:50                           ;
+; Analysis & Synthesis ; 00:00:42     ; 1.0                     ; 4929 MB             ; 00:00:28                           ;
+; Fitter               ; 00:00:22     ; 1.1                     ; 5756 MB             ; 00:00:16                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4716 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 4855 MB             ; 00:00:01                           ;
+; Total                ; 00:01:10     ; --                      ; --                  ; 00:00:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

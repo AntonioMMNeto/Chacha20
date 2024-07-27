@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>23/07/2024 19:49:07</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1721774947910</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>F:\Documentos\UFBA\Lab_Integrado_IV\ChaCha20_Quartus\ChaCha20\ChaCha20\software\ChaCha20_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>27/07/2024 16:33:32</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1722108812609</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>F:\Documentos\UFBA\Lab_Integrado_IV\Projeto_Chacha20\Chacha20\ChaCha20_Quartus\ChaCha20\ChaCha20\software\ChaCha20_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\SistemaEmbarcadoChaCha20.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -900,45 +900,45 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>MemoriaDados</slaveDescriptor>
-                <addressRange>0x00000000 - 0x00003FFF</addressRange>
-                <addressSpan>16384</addressSpan>
+                <addressRange>0x00000000 - 0x0001FFFF</addressRange>
+                <addressSpan>131072</addressSpan>
                 <attributes>memory, non-volatile</attributes>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>MemoriaPrograma</slaveDescriptor>
+                <addressRange>0x00040000 - 0x0005FFFF</addressRange>
+                <addressSpan>131072</addressSpan>
+                <attributes>memory</attributes>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>pio_ready_in</slaveDescriptor>
-                <addressRange>0x00005000 - 0x0000500F</addressRange>
+                <addressRange>0x00061000 - 0x0006100F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio_char_in</slaveDescriptor>
-                <addressRange>0x00005010 - 0x0000501F</addressRange>
+                <addressRange>0x00061010 - 0x0006101F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio_ready_out</slaveDescriptor>
-                <addressRange>0x00005020 - 0x0000502F</addressRange>
+                <addressRange>0x00061020 - 0x0006102F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio_char_out</slaveDescriptor>
-                <addressRange>0x00005030 - 0x0000503F</addressRange>
+                <addressRange>0x00061030 - 0x0006103F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x00005040 - 0x00005047</addressRange>
+                <addressRange>0x00061040 - 0x00061047</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
-        </MemoryMap>
-        <MemoryMap>
-                <slaveDescriptor>MemoriaPrograma</slaveDescriptor>
-                <addressRange>0x00080000 - 0x000BFFFF</addressRange>
-                <addressSpan>262144</addressSpan>
-                <attributes>memory</attributes>
         </MemoryMap>
         <LinkerSection>
                 <sectionName>.text</sectionName>
