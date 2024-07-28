@@ -19,6 +19,9 @@ unsigned int counter = 0x01;
 char block[64];
 void generate_nonce();
 
+char encrypted_message[512];
+char decrypted_message[512];
+
 void inner_block(unsigned int *state);
 void quarter_round(unsigned int *state, unsigned int a, unsigned int b, unsigned int c, unsigned int d);
 unsigned int left_rotate(unsigned int value, unsigned short int num_shifted);
@@ -28,13 +31,11 @@ void xor_message(char *message, char *encrypted_message);
 int main()
 {
 	char message[] = "Nos dias seguintes";
-	char encrypted_message[512];
-	char *decrypted_message[512];
 
 	// Encrpyt message, xor with state
-	//printf("Original message: %s\n", message);
+	printf("Original message: %s\n", message);
 	xor_message(message, encrypted_message); // encrypt
-	//printf("\nEncrypted_message Text: %s\n", encrypted_message);
+	printf("\nEncrypted_message Text: %s\n", encrypted_message);
 	xor_message(encrypted_message, decrypted_message); // decrypt
 	printf("\nDecrypted Text: %s\n", decrypted_message);
 
@@ -136,7 +137,7 @@ unsigned int* chacha20_block(unsigned int *key, unsigned int counter, unsigned i
 // XOR message with state matrix
 void xor_message(char *message, char *encrypted_message) {
     generate_nonce();
-    unsigned int len_text = strlen(message);
+    unsigned int len_text = 64;
     unsigned int *key_stream;
     unsigned int parts = len_text / 64 + 1;
 
@@ -153,6 +154,7 @@ void xor_message(char *message, char *encrypted_message) {
             unsigned int state_word = *(key_stream + (j / 16));
             block[j] = (state_word >> (8 * (j % 4))) & 0xff;
             *(encrypted_message + j) = *(message + j) ^ block[j];
+            //printf("xor: %c\n", *(encrypted_message + j));
         }
     }
 }
