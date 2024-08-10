@@ -1,0 +1,305 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Resultado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Resultado[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Pronto",
+					"strict" : false
+				},
+				{
+					"name" : "Descarrega",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Carregar",
+					"strict" : false
+				},
+				{
+					"name" : "Double_Word[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Double_Word[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Double_Word[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Double_Word[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[16]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[17]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[18]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[19]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[20]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[21]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[22]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[23]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[24]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[25]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[26]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[27]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[28]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[29]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[30]",
+					"strict" : false
+				},
+				{
+					"name" : "MatQ[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Iniciar",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
