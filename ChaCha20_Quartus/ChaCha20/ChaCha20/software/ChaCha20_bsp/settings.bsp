@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>27/07/2024 16:33:32</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1722108812609</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>10/08/2024 16:57:32</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1723319852612</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>F:\Documentos\UFBA\Lab_Integrado_IV\Projeto_Chacha20\Chacha20\ChaCha20_Quartus\ChaCha20\ChaCha20\software\ChaCha20_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\SistemaEmbarcadoChaCha20.sopcinfo</SopcDesignFile>

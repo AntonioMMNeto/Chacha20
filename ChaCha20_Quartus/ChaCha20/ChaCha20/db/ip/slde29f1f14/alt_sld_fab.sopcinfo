@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab" kind="alt_sld_fab" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.07.27.16:14:45 -->
+ <!-- 2024.08.10.16:26:19 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
@@ -56,7 +56,7 @@
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>11b0f6ce1f188f629be0</value>
+   <value>8851f5e1d5f8e1491816</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -104,7 +104,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="EP_INFOS">
    <type>java.lang.String</type>
-   <value>{hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_MemoriaDados:memoriadados|altsyncram:the_altsyncram|altsyncram_a2t1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_Processador:processador|SistemaEmbarcadoChaCha20_Processador_cpu:cpu|SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci:the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci|SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper:the_SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper|sld_virtual_jtag_basic:SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_phy|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_jtag_uart:jtag_uart|alt_jtag_atlantic:SistemaEmbarcadoChaCha20_jtag_uart_alt_jtag_atlantic} } </value>
+   <value>{hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_MemoriaDados:memoriadados|altsyncram:the_altsyncram|altsyncram_vet1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_Processador:processador|SistemaEmbarcadoChaCha20_Processador_cpu:cpu|SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci:the_SistemaEmbarcadoChaCha20_Processador_cpu_nios2_oci|SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper:the_SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_wrapper|sld_virtual_jtag_basic:SistemaEmbarcadoChaCha20_Processador_cpu_debug_slave_phy|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {SistemaEmbarcadoChaCha20:inst|SistemaEmbarcadoChaCha20_jtag_uart:jtag_uart|alt_jtag_atlantic:SistemaEmbarcadoChaCha20_jtag_uart_alt_jtag_atlantic} } </value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2735,7 +2735,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>11b0f6ce1f188f629be0</value>
+   <value>8851f5e1d5f8e1491816</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

@@ -37,7 +37,7 @@ module SistemaEmbarcadoChaCha20_MemoriaDados (
                                              )
 ;
 
-  parameter INIT_FILE = "F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif";
+  parameter INIT_FILE = "F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados_90kb.mif";
 
 
   output  [ 31: 0] readdata;

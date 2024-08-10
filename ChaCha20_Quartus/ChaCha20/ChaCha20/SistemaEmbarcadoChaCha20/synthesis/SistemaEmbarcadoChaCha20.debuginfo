@@ -5,7 +5,7 @@
  version="18.1"
  fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.07.27.16:13:44 -->
+ <!-- 2024.08.10.16:24:59 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -57,7 +57,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1722107594</value>
+  <value>1723317867</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -180,7 +180,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_CONTENTS_FILE</name>
-   <value>MemoriaDados</value>
+   <value>MemoriaDados_90kb</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
@@ -244,7 +244,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_FILENAME</name>
-   <value>MemoriaDados</value>
+   <value>MemoriaDados_90kb</value>
   </assignment>
   <assignment>
    <name>postgeneration.simulation.init_file.param_name</name>
@@ -320,7 +320,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="initializationFileName">
    <type>java.lang.String</type>
-   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif</value>
+   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados_90kb.mif</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -531,7 +531,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif</value>
+   <value>F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados_90kb.mif</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -15298,5 +15298,5 @@ parameters are a RESULT of the module parameters. -->
   <version>18.1</version>
  </plugin>
  <reportVersion>18.1 625</reportVersion>
- <uniqueIdentifier>5ECD5B4393A600000190F59C965B</uniqueIdentifier>
+ <uniqueIdentifier>5ECD5B4393A6000001913DBFE549</uniqueIdentifier>
 </EnsembleReport>

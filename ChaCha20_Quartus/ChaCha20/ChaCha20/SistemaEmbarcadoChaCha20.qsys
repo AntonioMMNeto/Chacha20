@@ -224,7 +224,7 @@
   <parameter name="enPRInitMode" value="false" />
   <parameter name="enableDiffWidth" value="false" />
   <parameter name="initMemContent" value="true" />
-  <parameter name="initializationFileName">F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados.mif</parameter>
+  <parameter name="initializationFileName">F:/Documentos/UFBA/Lab_Integrado_IV/Projeto_Chacha20/Chacha20/ChaCha20_Quartus/ChaCha20/ChaCha20/MemoriaDados_90kb.mif</parameter>
   <parameter name="instanceID" value="ROM" />
   <parameter name="memorySize" value="131072" />
   <parameter name="readDuringWriteMode" value="DONT_CARE" />

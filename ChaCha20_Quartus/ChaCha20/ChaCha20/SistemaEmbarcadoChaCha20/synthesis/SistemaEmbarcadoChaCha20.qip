@@ -2,7 +2,7 @@ set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarc
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_TOOL_VERSION "18.1"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../SistemaEmbarcadoChaCha20.sopcinfo"]
-set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name SLD_INFO "QSYS_NAME SistemaEmbarcadoChaCha20 HAS_SOPCINFO 1 GENERATION_ID 1722107594"
+set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name SLD_INFO "QSYS_NAME SistemaEmbarcadoChaCha20 HAS_SOPCINFO 1 GENERATION_ID 1723317867"
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name MISC_FILE [file join $::quartus(qip_path) "../SistemaEmbarcadoChaCha20.cmp"]
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name SLD_FILE [file join $::quartus(qip_path) "SistemaEmbarcadoChaCha20.regmap"]
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name SLD_FILE [file join $::quartus(qip_path) "SistemaEmbarcadoChaCha20.debuginfo"]
@@ -16,7 +16,7 @@ set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarc
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcyMjEwNzU5NA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcyMzMxNzg2Nw==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
@@ -1073,7 +1073,7 @@ set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZHVhbFBvcnQ=::ZmFsc2U=::RHVhbC1wb3J0IGFjY2Vzcw=="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9lbmFibGVEaWZmV2lkdGg=::ZmFsc2U=::ZGVyaXZlZF9lbmFibGVEaWZmV2lkdGg="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "aW5pdE1lbUNvbnRlbnQ=::dHJ1ZQ==::SW5pdGlhbGl6ZSBtZW1vcnkgY29udGVudA=="
-set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "aW5pdGlhbGl6YXRpb25GaWxlTmFtZQ==::RjovRG9jdW1lbnRvcy9VRkJBL0xhYl9JbnRlZ3JhZG9fSVYvUHJvamV0b19DaGFjaGEyMC9DaGFjaGEyMC9DaGFDaGEyMF9RdWFydHVzL0NoYUNoYTIwL0NoYUNoYTIwL01lbW9yaWFEYWRvcy5taWY=::VXNlciBjcmVhdGVkIGluaXRpYWxpemF0aW9uIGZpbGU="
+set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "aW5pdGlhbGl6YXRpb25GaWxlTmFtZQ==::RjovRG9jdW1lbnRvcy9VRkJBL0xhYl9JbnRlZ3JhZG9fSVYvUHJvamV0b19DaGFjaGEyMC9DaGFjaGEyMC9DaGFDaGEyMF9RdWFydHVzL0NoYUNoYTIwL0NoYUNoYTIwL01lbW9yaWFEYWRvc185MGtiLm1pZg==::VXNlciBjcmVhdGVkIGluaXRpYWxpemF0aW9uIGZpbGU="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZW5QUkluaXRNb2Rl::ZmFsc2U=::RW5hYmxlIFBhcnRpYWwgUmVjb25maWd1cmF0aW9uIEluaXRpYWxpemF0aW9uIE1vZGU="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "aW5zdGFuY2VJRA==::Uk9N::SW5zdGFuY2UgSUQ="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "bWVtb3J5U2l6ZQ==::MTMxMDcy::VG90YWwgbWVtb3J5IHNpemU="
@@ -1095,7 +1095,7 @@ set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9zZXRfZGF0YV93aWR0aDI=::MzI=::U2xhdmUgMiBkYXRhIHdpZHRo"
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9ndWlfcmFtX2Jsb2NrX3R5cGU=::QXV0b21hdGlj::ZGVyaXZlZF9ndWlfcmFtX2Jsb2NrX3R5cGU="
 set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pc19oYXJkY29weQ==::ZmFsc2U=::ZGVyaXZlZF9pc19oYXJkY29weQ=="
-set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ==::RjovRG9jdW1lbnRvcy9VRkJBL0xhYl9JbnRlZ3JhZG9fSVYvUHJvamV0b19DaGFjaGEyMC9DaGFjaGEyMC9DaGFDaGEyMF9RdWFydHVzL0NoYUNoYTIwL0NoYUNoYTIwL01lbW9yaWFEYWRvcy5taWY=::ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ=="
+set_global_assignment -entity "SistemaEmbarcadoChaCha20_MemoriaDados" -library "SistemaEmbarcadoChaCha20" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ==::RjovRG9jdW1lbnRvcy9VRkJBL0xhYl9JbnRlZ3JhZG9fSVYvUHJvamV0b19DaGFjaGEyMC9DaGFjaGEyMC9DaGFDaGEyMF9RdWFydHVzL0NoYUNoYTIwL0NoYUNoYTIwL01lbW9yaWFEYWRvc185MGtiLm1pZg==::ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ=="
 
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name VERILOG_FILE [file join $::quartus(qip_path) "SistemaEmbarcadoChaCha20.v"]
 set_global_assignment -library "SistemaEmbarcadoChaCha20" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
