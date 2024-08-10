@@ -117,7 +117,7 @@ unsigned int left_rotate(unsigned int value, unsigned short int num_shifted){
  *
  * @param key Ponteiro para um vetor de 8 inteiros sem sinal que representa a chave de 256 bits.
  * @param counter Valor inteiro que representa o contador de bloco.
- * @param nonce Ponteiro para um vetor de 2 inteiros sem sinal que representa o nonce de 64 bits.
+ * @param nonce Ponteiro para um vetor de 3 inteiros sem sinal que representa o nonce de 96 bits.
  * @return Ponteiro para o vetor de estado contendo o bloco gerado.
  */
 unsigned int* chacha20_block(unsigned int *key, unsigned int counter, unsigned int *nonce){
