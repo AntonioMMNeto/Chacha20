@@ -16,27 +16,27 @@ unsigned int state[4][4]; // 4x4 matrix
 unsigned int *pointer_state = &state[0][0];
 unsigned int nonce[3] = {0x09000000, 0x4a000000, 0x00000000};
 unsigned int counter = 0x01;
-char block[64];
+unsigned char block[64];
 void generate_nonce();
 
-char encrypted_message[512];
-char decrypted_message[512];
+unsigned char encrypted_message[512];
+unsigned char decrypted_message[512];
 
 void inner_block(unsigned int *state);
 void quarter_round(unsigned int *state, unsigned int a, unsigned int b, unsigned int c, unsigned int d);
 unsigned int left_rotate(unsigned int value, unsigned short int num_shifted);
 unsigned int *chacha20_block(unsigned int *key, unsigned int counter, unsigned int *nonce);
-void xor_message(char *message, char *encrypted_message);
+unsigned char* xor_message(char *message, char *encrypted_message, int size);
 
 int main()
 {
-	char message[] = "Nos dias seguintes";
-
+	const char *message = "Nos dias seguintes iuu iuh iu hiu fdsfsdfsdofkds  fsdiof hsif hs ufo fhosfos os fos fosidhfosd fhoisfosid fhos fosi fhos fhois fhosi ofi fdsf shdifosdhof sodif hosifh osdi fhosidhf os hfos fois hfois dfhoish f";
+	int size = strlen(message);
 	// Encrpyt message, xor with state
 	printf("Original message: %s\n", message);
-	xor_message(message, encrypted_message); // encrypt
-	printf("\nEncrypted_message Text: %s\n", encrypted_message);
-	xor_message(encrypted_message, decrypted_message); // decrypt
+	unsigned char* text_en = xor_message(message, encrypted_message, size); // encrypt
+	printf("\nEncrypted_message Text: %s\n", text_en);
+	xor_message(encrypted_message, decrypted_message, size); // decrypt
 	printf("\nDecrypted Text: %s\n", decrypted_message);
 
 
@@ -135,9 +135,13 @@ unsigned int* chacha20_block(unsigned int *key, unsigned int counter, unsigned i
 }
 
 // XOR message with state matrix
-void xor_message(char *message, char *encrypted_message) {
+unsigned char* xor_message(char *message, char *encrypted_message, int size) {
     generate_nonce();
-    unsigned int len_text = 64;
+
+	printf("\nTamanho do texto: %d", strlen(message));
+	printf("\nTexto original: %s\n", message);
+
+    unsigned int len_text = size;
     unsigned int *key_stream;
     unsigned int parts = len_text / 64 + 1;
 
@@ -151,12 +155,19 @@ void xor_message(char *message, char *encrypted_message) {
         for (int j = part * 64; j < last_i; j++)
         {
             // get ith byte of the state, with 4 bytes per word. 4x4
-            unsigned int state_word = *(key_stream + (j / 16));
+        	unsigned int state_word = *(key_stream + (j / 16));
             block[j] = (state_word >> (8 * (j % 4))) & 0xff;
             *(encrypted_message + j) = *(message + j) ^ block[j];
-            //printf("xor: %c\n", *(encrypted_message + j));
+            //printf("\npart: %d, j: %d\n", part, j);
+            printf("Char: %c, Int: %d\n", *(encrypted_message + j),*(encrypted_message + j));
+            //printf("\n");
         }
     }
+
+    unsigned char text[512];
+    sprintf(text,"%s",encrypted_message);
+    printf("Text %s",text);
+    return &text[0];
 }
 
 void generate_nonce() {

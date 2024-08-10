@@ -23,7 +23,7 @@ void xor_message(char *message, char *encrypted_message);
 
 int main(){  
 
-    char message[] = "oi, bebe";
+    char message[] = "Nos dias seguintes iuu iuh iu hiu fdsfsdfsdofkds  fsdiof hsif hs ufo fhosfos os fos fosidhfosd fhoisfosid fhos fosi fhos fhois fhosi ofi fdsf shdifosdhof sodif hosifh osdi fhosidhf os hfos fois hfois dfhoish f";
     char *encrypted_message = calloc((strlen(message)+1) * sizeof(char), sizeof(char));
     
     // Encrpyt message, xor with state 
