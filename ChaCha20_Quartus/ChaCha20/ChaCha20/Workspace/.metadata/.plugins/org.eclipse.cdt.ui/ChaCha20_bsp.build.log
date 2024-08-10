@@ -1,6 +1,6 @@
-19:17:36 **** Incremental Build of configuration Nios II for project ChaCha20_bsp ****
+19:51:15 **** Incremental Build of configuration Nios II for project ChaCha20_bsp ****
 make all 
 [BSP build complete]
 
-19:17:37 Build Finished (took 1s.251ms)
+19:51:17 Build Finished (took 1s.204ms)
 

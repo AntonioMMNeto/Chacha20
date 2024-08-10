@@ -14,7 +14,7 @@ unsigned int constant[4] = {0x61707865, 0x3320646e, 0x79622d32, 0x6b206574};  //
 unsigned int key[8] = {0x03020100, 0x07060504, 0x0b0a0908, 0x0f0e0d0c, 0x13121110, 0x17161514, 0x1b1a1918, 0x1f1e1d1c}; // password
 unsigned int state[4][4]; // 4x4 matrix
 unsigned int *pointer_state = &state[0][0];
-unsigned int nonce[3];
+unsigned int nonce[3] = {0x09000000, 0x4a000000, 0x00000000};
 unsigned int counter = 0x01;
 unsigned char block[64];
 char encrypted_message[512];
