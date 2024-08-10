@@ -1,0 +1,233 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'estado_atual.estado_reset'
+Slack : -7.659
+TNS   : -754.363
+
+Type  : Slow 1200mV 85C Model Setup 'estado_atual.estado_inicial'
+Slack : -7.576
+TNS   : -2050.652
+
+Type  : Slow 1200mV 85C Model Setup 'Descarrega'
+Slack : -7.113
+TNS   : -210.715
+
+Type  : Slow 1200mV 85C Model Setup 'estado_atual.Q_r'
+Slack : -4.269
+TNS   : -966.275
+
+Type  : Slow 1200mV 85C Model Setup 'Clk'
+Slack : -3.114
+TNS   : -15.126
+
+Type  : Slow 1200mV 85C Model Setup 'estado_atual.Atribu_variavel_repete1'
+Slack : -2.899
+TNS   : -13.886
+
+Type  : Slow 1200mV 85C Model Hold 'estado_atual.Q_r'
+Slack : -0.723
+TNS   : -2.792
+
+Type  : Slow 1200mV 85C Model Hold 'estado_atual.estado_inicial'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Descarrega'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Clk'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'estado_atual.estado_reset'
+Slack : 1.181
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Carregar'
+Slack : -3.000
+TNS   : -496.440
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Descarrega'
+Slack : -3.000
+TNS   : -50.545
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'estado_atual.Q_r'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'estado_atual.estado_inicial'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'estado_atual.estado_reset'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'estado_atual.estado_reset'
+Slack : -6.950
+TNS   : -686.860
+
+Type  : Slow 1200mV 0C Model Setup 'estado_atual.estado_inicial'
+Slack : -6.839
+TNS   : -1849.934
+
+Type  : Slow 1200mV 0C Model Setup 'Descarrega'
+Slack : -6.449
+TNS   : -189.610
+
+Type  : Slow 1200mV 0C Model Setup 'estado_atual.Q_r'
+Slack : -3.912
+TNS   : -903.506
+
+Type  : Slow 1200mV 0C Model Setup 'Clk'
+Slack : -2.690
+TNS   : -12.920
+
+Type  : Slow 1200mV 0C Model Setup 'estado_atual.Atribu_variavel_repete1'
+Slack : -2.579
+TNS   : -12.347
+
+Type  : Slow 1200mV 0C Model Hold 'estado_atual.Q_r'
+Slack : -0.542
+TNS   : -2.086
+
+Type  : Slow 1200mV 0C Model Hold 'estado_atual.estado_inicial'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Descarrega'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Clk'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'estado_atual.estado_reset'
+Slack : 1.232
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Carregar'
+Slack : -3.000
+TNS   : -496.440
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Descarrega'
+Slack : -3.000
+TNS   : -50.545
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'estado_atual.estado_reset'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'estado_atual.Q_r'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'estado_atual.estado_inicial'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'estado_atual.estado_reset'
+Slack : -3.796
+TNS   : -356.092
+
+Type  : Fast 1200mV 0C Model Setup 'Descarrega'
+Slack : -3.543
+TNS   : -100.678
+
+Type  : Fast 1200mV 0C Model Setup 'estado_atual.estado_inicial'
+Slack : -3.361
+TNS   : -839.389
+
+Type  : Fast 1200mV 0C Model Setup 'estado_atual.Q_r'
+Slack : -1.783
+TNS   : -300.951
+
+Type  : Fast 1200mV 0C Model Setup 'Clk'
+Slack : -1.361
+TNS   : -5.817
+
+Type  : Fast 1200mV 0C Model Setup 'estado_atual.Atribu_variavel_repete1'
+Slack : -0.943
+TNS   : -4.270
+
+Type  : Fast 1200mV 0C Model Hold 'estado_atual.Q_r'
+Slack : -0.293
+TNS   : -1.127
+
+Type  : Fast 1200mV 0C Model Hold 'estado_atual.estado_inicial'
+Slack : 0.099
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Descarrega'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Clk'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'estado_atual.estado_reset'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Carregar'
+Slack : -3.000
+TNS   : -411.426
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Descarrega'
+Slack : -3.000
+TNS   : -42.424
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clk'
+Slack : -3.000
+TNS   : -13.451
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'estado_atual.estado_inicial'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'estado_atual.Q_r'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'estado_atual.Atribu_variavel_repete1'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'estado_atual.estado_reset'
+Slack : 0.419
+TNS   : 0.000
+
+------------------------------------------------------------

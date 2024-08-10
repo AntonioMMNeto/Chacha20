@@ -52,7 +52,7 @@ void chacha20 (char *texto,int tamtexto,char *textoEncDec,long *chave,long *nonc
     char rodB[64];
     int x,y;
     long contadoronce[4]={contador[0],(numcontador==2? nonce[2]:contador[1]),nonce[1],nonce[0]};
-
+    contador[0]=0;
     for (x=0 ; x< tamtexto; x+=64){  
         contadoronce[0] +=1;
         if (numcontador==1) contadoronce[1] +=2; 
@@ -71,7 +71,7 @@ int main (){
     long nonce[4-numcontador]={0};
     
     
-    char textoSecreto[]="Teste algoritimo chacha20 ";
+    char textoSecreto[]="O sol brilha forte";
     char textoEncDec[sizeof(textoSecreto)];
     int tamtexto = sizeof(textoSecreto) - 1;
     printf("Texto Entrada : %s\n",textoSecreto);

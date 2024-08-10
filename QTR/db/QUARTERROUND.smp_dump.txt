@@ -1,0 +1,17 @@
+
+State Machine - |quarterR|estado_atual
+Name estado_atual.estado_inicial estado_atual.pronto1 estado_atual.soma estado_atual.Fim_repete1 estado_atual.contin estado_atual.Q_r estado_atual.repete1 estado_atual.Atribu_variavel_repete1 estado_atual.estado_reset 
+estado_atual.estado_reset 0 0 0 0 0 0 0 0 0 
+estado_atual.Atribu_variavel_repete1 0 0 0 0 0 0 0 1 1 
+estado_atual.repete1 0 0 0 0 0 0 1 0 1 
+estado_atual.Q_r 0 0 0 0 0 1 0 0 1 
+estado_atual.contin 0 0 0 0 1 0 0 0 1 
+estado_atual.Fim_repete1 0 0 0 1 0 0 0 0 1 
+estado_atual.soma 0 0 1 0 0 0 0 0 1 
+estado_atual.pronto1 0 1 0 0 0 0 0 0 1 
+estado_atual.estado_inicial 1 0 0 0 0 0 0 0 1 
+
+State Machine - |quarterR|estado_parado
+Name estado_parado.estado_reset 
+estado_parado.estado_inicial 0 
+estado_parado.estado_reset 1 

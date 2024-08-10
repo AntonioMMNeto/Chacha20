@@ -1,0 +1,10 @@
+
+module quarterRound (Resultado,/*Chave,Contador,Nonce*/,Double_Word,Iniciar);
+parameter num_bits=32
+output reg [num_bits:0] Resultado;
+input [num_bits:0] Chave;
+//input [num_bits:0] Contador;
+//input [num_bits:0] Nonce;
+input [3:0]			 Double_Word;
+input 				 Carregar;
+input 				 Iniciar;
