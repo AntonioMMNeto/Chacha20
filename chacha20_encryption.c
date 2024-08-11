@@ -13,7 +13,6 @@ unsigned int counter = 0x01;
 unsigned char block[64];
 
 void generate_nonce();
-void capture_char(unsigned int size, char* message);
 void inner_block(unsigned int *state);
 void quarter_round(unsigned int *state, unsigned int a, unsigned int b, unsigned int c, unsigned int d);
 unsigned int left_rotate(unsigned int value, unsigned short int num_shifted);
