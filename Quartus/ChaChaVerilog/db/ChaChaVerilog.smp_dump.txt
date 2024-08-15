@@ -1,0 +1,17 @@
+
+State Machine - |ChaChaVerilog|SistemaEmbarcadoChaChaVerilog:inst|SistemaEmbarcadoChaChaVerilog_Processador:processador|SistemaEmbarcadoChaChaVerilog_Processador_cpu:cpu|SistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci:the_SistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci|SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper:the_SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper|SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck:the_SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |ChaChaVerilog|SistemaEmbarcadoChaChaVerilog:inst|chacha:chacha20|chacha_core:core|chacha_ctrl_reg
+Name chacha_ctrl_reg.CTRL_FINALIZE chacha_ctrl_reg.CTRL_ROUNDS chacha_ctrl_reg.CTRL_INIT chacha_ctrl_reg.CTRL_IDLE chacha_ctrl_reg.CTRL_DONE 
+chacha_ctrl_reg.CTRL_IDLE 0 0 0 0 0 
+chacha_ctrl_reg.CTRL_INIT 0 0 1 1 0 
+chacha_ctrl_reg.CTRL_ROUNDS 0 1 0 1 0 
+chacha_ctrl_reg.CTRL_FINALIZE 1 0 0 1 0 
+chacha_ctrl_reg.CTRL_DONE 0 0 0 1 1 
