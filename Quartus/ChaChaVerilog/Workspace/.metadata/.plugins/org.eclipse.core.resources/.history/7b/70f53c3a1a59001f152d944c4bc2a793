@@ -1,0 +1,91 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <system.h>
+#include <io.h>
+
+//#define CHACHA20_RTL (int*) 0x11400
+
+#define ADDR_ROUNDS 0x00
+#define ADDR_DATA_IN 0x40
+#define ADDR_KEY 0x17
+
+#define ADDR_DATA_OUT 0x80
+#define ADDR_STATUS 0x9
+#define ADDR_IV 0x20
+
+
+#define ADDR_CTRL 0x08
+
+unsigned int  key[8] = {0,0,0,0,0,0,0,0};
+unsigned int  nonce[2] = {0,0};
+int i;
+
+int main()
+{
+  printf("Hello from Nios II!\n");
+
+  IOWR(CHACHA20_BASE, ADDR_ROUNDS, 20);
+
+  printf("Preenchendo os dados da chave...\n");
+  // Preenche os dados da chave
+  for (i = 0; i < 8; i ++){
+	IOWR(CHACHA20_BASE, ADDR_KEY + 1, key[i]);
+  }
+
+  printf("Preenchendo nonce...\n");
+  // Preenche o nonce
+  for (i = 0; i < 2; i ++){
+	  IOWR(CHACHA20_BASE, ADDR_IV+i, nonce[i]);
+  }
+
+  printf("Preenchendo dados de entrada...\n");
+  // Prenche os dados de entrada (string a ser criptografada
+  for (i = 0; i < 16; i++) {
+	  IOWR(CHACHA20_BASE, ADDR_DATA_IN + 1, 0);
+  }
+
+  printf("Iniciando o processo no RTL\n");
+  // Inicia o processo, espera um pouco para o init e retira a flag
+  IOWR(CHACHA20_BASE, ADDR_CTRL, 0b11);
+  for (i  = 0; i < 40; i++);
+  IOWR(CHACHA20_BASE, ADDR_CTRL, 0b00);
+
+  printf("Esperando o data out ficar valido...\n");
+  // Espera ficar pronto
+  int n = 0;
+  while (!(IORD(CHACHA20_BASE, ADDR_STATUS) & 0b11)) {
+	  if (n++ % 10000) {
+		  printf("Status atual: %d\n", IORD(CHACHA20_BASE, ADDR_STATUS));
+	  }
+
+  }
+
+  int check[16] = {
+      0x3e00ef2f, 0x895f40d6, 0x7f5bb8e8, 0x1f09a5a1,
+      0x2c840ec3, 0xce9a7f3b, 0x181be188, 0xef711a1e,
+      0x984ce172, 0xb9216f41, 0x9f445367, 0x456d5619,
+      0x314a42a3, 0xda86b001, 0x387bfdb8, 0x0e0cfe42
+  };
+
+  // Checa os resultados
+   for (i = 0; i < 16; i++) {
+ 	  printf("data_out: %d, check: %d\n", IORD(CHACHA20_BASE, ADDR_DATA_OUT + i), check[i]);
+   }
+
+  return 0;
+}

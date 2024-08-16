@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projetos/Quartus/ChaChaVerilog/software/TesteSoftware/obj/default/runtime/sim/mentor
+vChaChaVerilog
+Z1 !s110 1723683635
+!i10b 1
+!s100 E]W2`<QMC=V2>EIT0j8IQ3
+I1Nhkia7]EH7Pg>K:LRo8a0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1723444680
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilog.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilog.v
+L0 19
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1723683635.000000
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilog.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilog.v|
+!i113 1
+Z5 tCvgOpt 0
+n@cha@cha@verilog
+vChaChaVerilogTB
+R1
+!i10b 1
+!s100 Wb6E710d9EQWCF6EXLF@Z2
+IaHKSak1H055>>5QT2EI8Z1
+R2
+R0
+w1723444962
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilogTB.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilogTB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilogTB.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/mentor/../../../ChaChaVerilogTB.v|
+!i113 1
+R5
+n@cha@cha@verilog@t@b
+vSistemaEmbarcadoChaChaVerilog_tb
+!s110 1723683614
+!i10b 1
+!s100 oJ]P63F;[9MRhEGjH48_=2
+Id6N@X`VJTmzUQK6=PW<_02
+R2
+R0
+w1723680708
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/SistemaEmbarcadoChaChaVerilog_tb.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/SistemaEmbarcadoChaChaVerilog_tb.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1723683614.000000
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/SistemaEmbarcadoChaChaVerilog_tb.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/SistemaEmbarcadoChaChaVerilog_tb.v|
+!i113 1
+R5
+n@sistema@embarcado@cha@cha@verilog_tb

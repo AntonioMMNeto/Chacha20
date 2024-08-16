@@ -1,0 +1,560 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Projetos/Quartus/ChaChaVerilog/software/TesteSoftware/obj/default/runtime/sim/mentor
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu
+Z1 !s110 1723683613
+!i10b 1
+!s100 EDz74[2C?Hnh8g`<WkKkG1
+ImJEeX_Cg=a^Zh<D4m[;m`0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1723680725
+Z4 8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v
+Z5 FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v
+L0 2834
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1723683613.000000
+Z8 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v|
+Z9 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+Z11 tCvgOpt 0
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk
+R1
+!i10b 1
+!s100 QY_[Mi6JO<NP6d`eB3hEQ3
+IF]z7ABbDboR>ah79f?QMc0
+R2
+R0
+R3
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v
+Z12 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_debug_slave_sysclk
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck
+R1
+!i10b 1
+!s100 4[6gXSOn9hcH^;8GC[jld0
+IzcaUO>66Xf;VW]?3l3F0O2
+R2
+R0
+R3
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_debug_slave_tck
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper
+R1
+!i10b 1
+!s100 OMZ7Af6zl6o:9cWCE0H@T2
+I:UKO:;30b3i]>?]J04:Sa2
+R2
+R0
+R3
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_debug_slave_wrapper
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 ZNQm@PS3[HBbI[Ta8O=<j3
+IU5DFY76F1[A]FCOaEiIBk1
+R2
+R0
+R3
+R4
+R5
+L0 2023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_avalon_reg
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci
+R1
+!i10b 1
+!s100 MdoWS^I[TB?nC:_ZJVd1P2
+IImfdOU[WkoozZRj?<W?gI1
+R2
+R0
+R3
+R4
+R5
+L0 2362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 nU`Td17fEUam0RmcKhilj1
+ICB^M>nG:ffC9K=CY0m1iV0
+R2
+R0
+R3
+R4
+R5
+L0 295
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_break
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 HT;3bSH`NBdJQYY5P19lP2
+IaWgj86fGB80I;4cf`2VVg2
+R2
+R0
+R3
+R4
+R5
+L0 1265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_compute_input_tm_cnt
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 fPT8:JWaMD0m_H<ZI4l>H3
+ITQJDBR9F8g:iJAiG?gfEK0
+R2
+R0
+R3
+R4
+R5
+L0 795
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_dbrk
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 5C2z68>MU7F=7EYVXSN1V3
+IEh=@fOH>4o3jX>dMaA;>01
+R2
+R0
+R3
+R4
+R5
+L0 153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_debug
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 7]id3;C0WV2CaR7eVIlnU2
+I]VIf;NUfhF?bl6KGia81D1
+R2
+R0
+R3
+R4
+R5
+L0 1183
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_dtrace
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 7K7^Gch3zFGHgfKJdH^aC2
+I?fM7Tn_079jnAlF1mOP][3
+R2
+R0
+R3
+R4
+R5
+L0 1427
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_fifo
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 z7nTWoQ;Kj]LNKnSMf5?D0
+I5:UAlgcG]RH;kQf074eG>3
+R2
+R0
+R3
+R4
+R5
+L0 1380
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_fifo_cnt_inc
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 z6@[Fcf<X]6Yek;c0f`8C3
+IXZ?ClDA_<9DmY]MYVMJX@1
+R2
+R0
+R3
+R4
+R5
+L0 1337
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_fifo_wrptr_inc
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 KJC?OWlM0^_j6O:C0zUF<2
+IV=0EV7O_9AozXRa_E7UZ:1
+R2
+R0
+R3
+R4
+R5
+L0 1936
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_im
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 PoK>OjlE<2@kWYF<8nNz^0
+IEFhN?bTEUTUGQMnPZEWlj1
+R2
+R0
+R3
+R4
+R5
+L0 982
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_itrace
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 dh:CNdjPg=M?zjDACWB6_2
+I1L0gD5>Id=0DUO<S1]bio1
+R2
+R0
+R3
+R4
+R5
+L0 1913
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_pib
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 d^J^;_4f8Bd1f3XK]cB2d0
+I^zLaEQ?dUdcc5^o2S[EYK0
+R2
+R0
+R3
+R4
+R5
+L0 1115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_td_mode
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 Ub`6DNH8aZT3EZ8MW=CLF2
+IHmUgn6LzVMeI36>i0Wz0M2
+R2
+R0
+R3
+R4
+R5
+L0 588
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_xbrk
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 90>gcA34S@>PTL1h[oZn]2
+I<SSMoNVELS=UX`8c[Ezd_2
+R2
+R0
+R3
+R4
+R5
+L0 2181
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_ocimem
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 :gV]57W4z0O0TloTnGz^71
+IFHg9dT]1HH:^54UkI5HA;2
+R2
+R0
+R3
+R4
+R5
+L0 2006
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_performance_monitors
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 iLb;ES@46M<eLoQe@NjC63
+IlccZ8[4E2XnYbf;aN77fn0
+R2
+R0
+R3
+R4
+R5
+L0 2116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_ociram_sp_ram_module
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 cdojTaW_<Zj:Pi3C6U_:<3
+IXU422>2DFX[PdRQ<@YVhC1
+R2
+R0
+R3
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_register_bank_a_module
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 0PJJj;zSG5z]ZN>`i7B;40
+IJ25iiU]CiBYM6APA:Yk803
+R2
+R0
+R3
+R4
+R5
+L0 87
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_register_bank_b_module
+vSistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench
+!s110 1723683614
+!i10b 1
+!s100 XP<X=`JB=6>abM4mbBGOG1
+I78PCXRQm:zNC^YAFM58?a0
+R2
+R0
+R3
+8C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v
+FC:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v
+R12
+R6
+r1
+!s85 0
+31
+!s108 1723683614.000000
+!s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v|
+!s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+R11
+n@sistema@embarcado@cha@cha@verilog_@processador_cpu_test_bench

@@ -1,0 +1,49 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <system.h>
+#include <io.h>
+
+#define CHACHA20_RTL (int *) 0x0
+
+#define ADDR_ROUNDS 0x00
+#define ADDR_DATA_IN 0x40
+#define ADDR_KEY 0x17
+
+#define ADDR_DATA_OUT 0x80
+#define ADDR_STATUS 0x9
+#define ADDR_IV 0x20
+
+
+#define ADDR_CTRL 0x08
+
+unsigned int  key[8] = {0,0,0,0,0,0,0,0};
+unsigned int  nonce[2] = {0,0};
+int i;
+
+int main()
+{
+  printf("Hello from Nios II!\n");
+
+  IOWR(0x410, 0, 25);
+  IOWR(0x410, 1, 25);
+  IOWR(0x410, 2, 25);
+  printf("Reg 1: %d\n", IORD(0x410, 0));
+
+
+  return 0;
+}
