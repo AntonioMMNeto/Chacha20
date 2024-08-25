@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/ChaChaVerilog/software/TesteSoftware/obj/default/runtime/sim/mentor
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu
-Z1 !s110 1723683613
+Z1 !s110 1724197366
 !i10b 1
 !s100 EDz74[2C?Hnh8g`<WkKkG1
 ImJEeX_Cg=a^Zh<D4m[;m`0
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1723683613.000000
+Z7 !s108 1724197365.000000
 Z8 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v|
 Z9 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu.v|-work|cpu|
 !i113 1
@@ -45,7 +45,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z13 !s108 1724197366.000000
 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_sysclk.v|-work|cpu|
 !i113 1
@@ -67,7 +67,7 @@ R6
 r1
 !s85 0
 31
-R7
+R13
 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_tck.v|-work|cpu|
 !i113 1
@@ -89,7 +89,7 @@ R6
 r1
 !s85 0
 31
-R7
+R13
 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_debug_slave_wrapper.v|-work|cpu|
 !i113 1
@@ -141,7 +141,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_break
-R1
+Z14 !s110 1724197365
 !i10b 1
 !s100 nU`Td17fEUam0RmcKhilj1
 ICB^M>nG:ffC9K=CY0m1iV0
@@ -207,7 +207,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_dbrk
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_debug
-R1
+R14
 !i10b 1
 !s100 5C2z68>MU7F=7EYVXSN1V3
 IEh=@fOH>4o3jX>dMaA;>01
@@ -405,7 +405,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_nios2_oci_td_mode
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_oci_xbrk
-R1
+R14
 !i10b 1
 !s100 Ub`6DNH8aZT3EZ8MW=CLF2
 IHmUgn6LzVMeI36>i0Wz0M2
@@ -493,7 +493,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_ociram_sp_ram_module
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_register_bank_a_module
-R1
+R14
 !i10b 1
 !s100 cdojTaW_<Zj:Pi3C6U_:<3
 IXU422>2DFX[PdRQ<@YVhC1
@@ -515,7 +515,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_register_bank_a_module
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_register_bank_b_module
-R1
+R14
 !i10b 1
 !s100 0PJJj;zSG5z]ZN>`i7B;40
 IJ25iiU]CiBYM6APA:Yk803
@@ -537,7 +537,7 @@ R10
 R11
 n@sistema@embarcado@cha@cha@verilog_@processador_cpu_register_bank_b_module
 vSistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench
-!s110 1723683614
+R1
 !i10b 1
 !s100 XP<X=`JB=6>abM4mbBGOG1
 I78PCXRQm:zNC^YAFM58?a0
@@ -551,7 +551,7 @@ R6
 r1
 !s85 0
 31
-!s108 1723683614.000000
+R13
 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v|
 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador_cpu_test_bench.v|-work|cpu|
 !i113 1

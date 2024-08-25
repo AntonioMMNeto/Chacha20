@@ -32,12 +32,6 @@ module SistemaEmbarcadoChaChaVerilog (
 	wire         mm_interconnect_0_jtag_uart_avalon_jtag_slave_read;        // mm_interconnect_0:jtag_uart_avalon_jtag_slave_read -> jtag_uart:av_read_n
 	wire         mm_interconnect_0_jtag_uart_avalon_jtag_slave_write;       // mm_interconnect_0:jtag_uart_avalon_jtag_slave_write -> jtag_uart:av_write_n
 	wire  [31:0] mm_interconnect_0_jtag_uart_avalon_jtag_slave_writedata;   // mm_interconnect_0:jtag_uart_avalon_jtag_slave_writedata -> jtag_uart:av_writedata
-	wire         mm_interconnect_0_customip_0_avalon_slave_0_chipselect;    // mm_interconnect_0:CustomIP_0_avalon_slave_0_chipselect -> CustomIP_0:chipselect
-	wire  [31:0] mm_interconnect_0_customip_0_avalon_slave_0_readdata;      // CustomIP_0:readdata -> mm_interconnect_0:CustomIP_0_avalon_slave_0_readdata
-	wire   [1:0] mm_interconnect_0_customip_0_avalon_slave_0_address;       // mm_interconnect_0:CustomIP_0_avalon_slave_0_address -> CustomIP_0:address
-	wire         mm_interconnect_0_customip_0_avalon_slave_0_read;          // mm_interconnect_0:CustomIP_0_avalon_slave_0_read -> CustomIP_0:read
-	wire         mm_interconnect_0_customip_0_avalon_slave_0_write;         // mm_interconnect_0:CustomIP_0_avalon_slave_0_write -> CustomIP_0:write
-	wire  [31:0] mm_interconnect_0_customip_0_avalon_slave_0_writedata;     // mm_interconnect_0:CustomIP_0_avalon_slave_0_writedata -> CustomIP_0:writedata
 	wire  [31:0] mm_interconnect_0_processador_debug_mem_slave_readdata;    // Processador:debug_mem_slave_readdata -> mm_interconnect_0:Processador_debug_mem_slave_readdata
 	wire         mm_interconnect_0_processador_debug_mem_slave_waitrequest; // Processador:debug_mem_slave_waitrequest -> mm_interconnect_0:Processador_debug_mem_slave_waitrequest
 	wire         mm_interconnect_0_processador_debug_mem_slave_debugaccess; // mm_interconnect_0:Processador_debug_mem_slave_debugaccess -> Processador:debug_mem_slave_debugaccess
@@ -55,7 +49,7 @@ module SistemaEmbarcadoChaChaVerilog (
 	wire         mm_interconnect_0_memoriaprograma_s1_clken;                // mm_interconnect_0:MemoriaPrograma_s1_clken -> MemoriaPrograma:clken
 	wire         irq_mapper_receiver0_irq;                                  // jtag_uart:av_irq -> irq_mapper:receiver0_irq
 	wire  [31:0] processador_irq_irq;                                       // irq_mapper:sender_irq -> Processador:irq
-	wire         rst_controller_reset_out_reset;                            // rst_controller:reset_out -> [ChaCha20:reset_n, CustomIP_0:reset_n, MemoriaPrograma:reset, Processador:reset_n, irq_mapper:reset, jtag_uart:rst_n, mm_interconnect_0:Processador_reset_reset_bridge_in_reset_reset, rst_translator:in_reset]
+	wire         rst_controller_reset_out_reset;                            // rst_controller:reset_out -> [ChaCha20:reset_n, MemoriaPrograma:reset, Processador:reset_n, irq_mapper:reset, jtag_uart:rst_n, mm_interconnect_0:Processador_reset_reset_bridge_in_reset_reset, rst_translator:in_reset]
 	wire         rst_controller_reset_out_reset_req;                        // rst_controller:reset_req -> [MemoriaPrograma:reset_req, Processador:reset_req, rst_translator:reset_req_in]
 	wire         processador_debug_reset_request_reset;                     // Processador:debug_reset_request -> rst_controller:reset_in1
 
@@ -67,17 +61,6 @@ module SistemaEmbarcadoChaChaVerilog (
 		.write_data (mm_interconnect_0_chacha20_leitura_escrita_writedata), //                .writedata
 		.read       (mm_interconnect_0_chacha20_leitura_escrita_read),      //                .read
 		.write      (mm_interconnect_0_chacha20_leitura_escrita_write)      //                .write
-	);
-
-	CustomIP customip_0 (
-		.address    (mm_interconnect_0_customip_0_avalon_slave_0_address),    // avalon_slave_0.address
-		.chipselect (mm_interconnect_0_customip_0_avalon_slave_0_chipselect), //               .chipselect
-		.read       (mm_interconnect_0_customip_0_avalon_slave_0_read),       //               .read
-		.write      (mm_interconnect_0_customip_0_avalon_slave_0_write),      //               .write
-		.writedata  (mm_interconnect_0_customip_0_avalon_slave_0_writedata),  //               .writedata
-		.readdata   (mm_interconnect_0_customip_0_avalon_slave_0_readdata),   //               .readdata
-		.clk        (clk_clk),                                                //          clock.clk
-		.reset_n    (~rst_controller_reset_out_reset)                         //          reset.reset_n
 	);
 
 	SistemaEmbarcadoChaChaVerilog_MemoriaPrograma memoriaprograma (
@@ -156,12 +139,6 @@ module SistemaEmbarcadoChaChaVerilog (
 		.ChaCha20_Leitura_Escrita_read                 (mm_interconnect_0_chacha20_leitura_escrita_read),           //                                        .read
 		.ChaCha20_Leitura_Escrita_readdata             (mm_interconnect_0_chacha20_leitura_escrita_readdata),       //                                        .readdata
 		.ChaCha20_Leitura_Escrita_writedata            (mm_interconnect_0_chacha20_leitura_escrita_writedata),      //                                        .writedata
-		.CustomIP_0_avalon_slave_0_address             (mm_interconnect_0_customip_0_avalon_slave_0_address),       //               CustomIP_0_avalon_slave_0.address
-		.CustomIP_0_avalon_slave_0_write               (mm_interconnect_0_customip_0_avalon_slave_0_write),         //                                        .write
-		.CustomIP_0_avalon_slave_0_read                (mm_interconnect_0_customip_0_avalon_slave_0_read),          //                                        .read
-		.CustomIP_0_avalon_slave_0_readdata            (mm_interconnect_0_customip_0_avalon_slave_0_readdata),      //                                        .readdata
-		.CustomIP_0_avalon_slave_0_writedata           (mm_interconnect_0_customip_0_avalon_slave_0_writedata),     //                                        .writedata
-		.CustomIP_0_avalon_slave_0_chipselect          (mm_interconnect_0_customip_0_avalon_slave_0_chipselect),    //                                        .chipselect
 		.jtag_uart_avalon_jtag_slave_address           (mm_interconnect_0_jtag_uart_avalon_jtag_slave_address),     //             jtag_uart_avalon_jtag_slave.address
 		.jtag_uart_avalon_jtag_slave_write             (mm_interconnect_0_jtag_uart_avalon_jtag_slave_write),       //                                        .write
 		.jtag_uart_avalon_jtag_slave_read              (mm_interconnect_0_jtag_uart_avalon_jtag_slave_read),        //                                        .read

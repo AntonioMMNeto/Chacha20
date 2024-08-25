@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2024.08.14.21:12:08
+# ACDS 18.1 625 win32 2024.08.25.15:04:21
 
 # ----------------------------------------
 # Initialize variables
@@ -184,8 +184,6 @@ ensure_lib                                              ./libraries/rsp_mux_001/
 vmap       rsp_mux_001                                  ./libraries/rsp_mux_001/                                 
 ensure_lib                                              ./libraries/rsp_mux/                                     
 vmap       rsp_mux                                      ./libraries/rsp_mux/                                     
-ensure_lib                                              ./libraries/rsp_demux_002/                               
-vmap       rsp_demux_002                                ./libraries/rsp_demux_002/                               
 ensure_lib                                              ./libraries/rsp_demux/                                   
 vmap       rsp_demux                                    ./libraries/rsp_demux/                                   
 ensure_lib                                              ./libraries/cmd_mux_002/                                 
@@ -228,8 +226,6 @@ ensure_lib                                              ./libraries/Processador/
 vmap       Processador                                  ./libraries/Processador/                                 
 ensure_lib                                              ./libraries/MemoriaPrograma/                             
 vmap       MemoriaPrograma                              ./libraries/MemoriaPrograma/                             
-ensure_lib                                              ./libraries/CustomIP_0/                                  
-vmap       CustomIP_0                                   ./libraries/CustomIP_0/                                  
 ensure_lib                                              ./libraries/ChaCha20/                                    
 vmap       ChaCha20                                     ./libraries/ChaCha20/                                    
 ensure_lib                                              ./libraries/SistemaEmbarcadoChaChaVerilog_inst_reset_bfm/
@@ -264,7 +260,6 @@ alias com {
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -L altera_common_sv_packages -work rsp_mux_001                                 
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_mux.sv"                           -L altera_common_sv_packages -work rsp_mux                                     
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -L altera_common_sv_packages -work rsp_mux                                     
-  eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux_002.sv"                     -L altera_common_sv_packages -work rsp_demux_002                               
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux.sv"                         -L altera_common_sv_packages -work rsp_demux                                   
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_cmd_mux_002.sv"                       -L altera_common_sv_packages -work cmd_mux_002                                 
   eval  vlog -sv $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -L altera_common_sv_packages -work cmd_mux_002                                 
@@ -294,7 +289,6 @@ alias com {
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_jtag_uart.v"                                                                         -work jtag_uart                                   
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador.v"                                                                       -work Processador                                 
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_MemoriaPrograma.v"                                                                   -work MemoriaPrograma                             
-  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/CustomIP.v"                                                                                                        -work CustomIP_0                                  
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha.v"                                                                                                          -work ChaCha20                                    
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha_core.v"                                                                                                     -work ChaCha20                                    
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha_qr.v"                                                                                                       -work ChaCha20                                    
@@ -308,14 +302,14 @@ alias com {
 # Elaborate top level design
 alias elab {
   echo "\[exec\] elab"
-  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_002 -L rsp_demux -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_004 -L router_002 -L router_001 -L router -L ChaCha20_Leitura_Escrita_agent_rsp_fifo -L ChaCha20_Leitura_Escrita_agent -L Processador_data_master_agent -L ChaCha20_Leitura_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L CustomIP_0 -L ChaCha20 -L SistemaEmbarcadoChaChaVerilog_inst_reset_bfm -L SistemaEmbarcadoChaChaVerilog_inst_clk_bfm -L SistemaEmbarcadoChaChaVerilog_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver $TOP_LEVEL_NAME
+  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_004 -L router_002 -L router_001 -L router -L ChaCha20_Leitura_Escrita_agent_rsp_fifo -L ChaCha20_Leitura_Escrita_agent -L Processador_data_master_agent -L ChaCha20_Leitura_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L ChaCha20 -L SistemaEmbarcadoChaChaVerilog_inst_reset_bfm -L SistemaEmbarcadoChaChaVerilog_inst_clk_bfm -L SistemaEmbarcadoChaChaVerilog_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------
 # Elaborate the top level design with novopt option
 alias elab_debug {
   echo "\[exec\] elab_debug"
-  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux_002 -L rsp_demux -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_004 -L router_002 -L router_001 -L router -L ChaCha20_Leitura_Escrita_agent_rsp_fifo -L ChaCha20_Leitura_Escrita_agent -L Processador_data_master_agent -L ChaCha20_Leitura_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L CustomIP_0 -L ChaCha20 -L SistemaEmbarcadoChaChaVerilog_inst_reset_bfm -L SistemaEmbarcadoChaChaVerilog_inst_clk_bfm -L SistemaEmbarcadoChaChaVerilog_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver $TOP_LEVEL_NAME
+  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_002 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_004 -L router_002 -L router_001 -L router -L ChaCha20_Leitura_Escrita_agent_rsp_fifo -L ChaCha20_Leitura_Escrita_agent -L Processador_data_master_agent -L ChaCha20_Leitura_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L ChaCha20 -L SistemaEmbarcadoChaChaVerilog_inst_reset_bfm -L SistemaEmbarcadoChaChaVerilog_inst_clk_bfm -L SistemaEmbarcadoChaChaVerilog_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------

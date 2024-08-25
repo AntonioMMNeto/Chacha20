@@ -30,22 +30,6 @@
          type = "String";
       }
    }
-   element CustomIP_0
-   {
-      datum _sortIndex
-      {
-         value = "5";
-         type = "int";
-      }
-   }
-   element CustomIP_0.avalon_slave_0
-   {
-      datum baseAddress
-      {
-         value = "1040";
-         type = "String";
-      }
-   }
    element MemoriaPrograma
    {
       datum _sortIndex
@@ -190,7 +174,6 @@
  <interface name="clk" internal="clock.clk_in" type="clock" dir="end" />
  <interface name="reset" internal="clock.clk_in_reset" type="reset" dir="end" />
  <module name="ChaCha20" kind="ChaCha20" version="1.0" enabled="1" />
- <module name="CustomIP_0" kind="CustomIP" version="1.0" enabled="1" />
  <module
    name="MemoriaPrograma"
    kind="altera_avalon_onchip_memory2"
@@ -247,7 +230,7 @@
   <parameter name="dataAddrWidth" value="19" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='ChaCha20.Leitura_Escrita' start='0x0' end='0x400' type='ChaCha20.Leitura_Escrita' /><slave name='CustomIP_0.avalon_slave_0' start='0x410' end='0x420' type='CustomIP.avalon_slave_0' /><slave name='jtag_uart.avalon_jtag_slave' start='0x420' end='0x428' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='Processador.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='MemoriaPrograma.s1' start='0x40000' end='0x56800' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='ChaCha20.Leitura_Escrita' start='0x0' end='0x400' type='ChaCha20.Leitura_Escrita' /><slave name='jtag_uart.avalon_jtag_slave' start='0x420' end='0x428' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='Processador.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='MemoriaPrograma.s1' start='0x40000' end='0x56800' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></parameter>
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -286,7 +269,7 @@
   <parameter name="icache_tagramBlockType" value="Automatic" />
   <parameter name="impl" value="Tiny" />
   <parameter name="instAddrWidth" value="19" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='CustomIP_0.avalon_slave_0' start='0x410' end='0x420' type='CustomIP.avalon_slave_0' /><slave name='Processador.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='MemoriaPrograma.s1' start='0x40000' end='0x56800' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='Processador.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='MemoriaPrograma.s1' start='0x40000' end='0x56800' type='altera_avalon_onchip_memory2.s1' /></address-map>]]></parameter>
   <parameter name="instructionMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="instructionMasterHighPerformanceMapParam" value="" />
   <parameter name="instruction_master_high_performance_paddr_base" value="0" />
@@ -452,15 +435,6 @@
    kind="avalon"
    version="18.1"
    start="Processador.data_master"
-   end="CustomIP_0.avalon_slave_0">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0410" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="Processador.data_master"
    end="Processador.debug_mem_slave">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x1000" />
@@ -473,15 +447,6 @@
    end="MemoriaPrograma.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x00040000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="18.1"
-   start="Processador.instruction_master"
-   end="CustomIP_0.avalon_slave_0">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0410" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -510,7 +475,6 @@
    start="clock.clk"
    end="MemoriaPrograma.clk1" />
  <connection kind="clock" version="18.1" start="clock.clk" end="ChaCha20.clock" />
- <connection kind="clock" version="18.1" start="clock.clk" end="CustomIP_0.clock" />
  <connection
    kind="interrupt"
    version="18.1"
@@ -537,11 +501,6 @@
    kind="reset"
    version="18.1"
    start="clock.clk_reset"
-   end="CustomIP_0.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="clock.clk_reset"
    end="MemoriaPrograma.reset1" />
  <connection
    kind="reset"
@@ -558,11 +517,6 @@
    version="18.1"
    start="Processador.debug_reset_request"
    end="ChaCha20.reset" />
- <connection
-   kind="reset"
-   version="18.1"
-   start="Processador.debug_reset_request"
-   end="CustomIP_0.reset" />
  <connection
    kind="reset"
    version="18.1"

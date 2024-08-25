@@ -36,12 +36,12 @@ Info: Reading index C:\Projetos\Quartus\ChaChaVerilog\SistemaEmbarcadoChaChaVeri
 Progress: Loading ChaChaVerilog/ChaCha20_hw.tcl
 Progress: Loading ChaChaVerilog/CustomIP_hw.tcl
 Progress: Loading ChaChaVerilog/SistemaEmbarcadoChaChaVerilog.qsys
-Info: C:/Projetos/Quartus/ChaChaVerilog/* matched 31 files in 0.03 seconds
+Info: C:/Projetos/Quartus/ChaChaVerilog/* matched 32 files in 0.04 seconds
 Info: C:/Projetos/Quartus/ChaChaVerilog/ip/**/* matched 0 files in 0.00 seconds
-Info: C:/Projetos/Quartus/ChaChaVerilog/*/* matched 339 files in 0.01 seconds
+Info: C:/Projetos/Quartus/ChaChaVerilog/*/* matched 337 files in 0.01 seconds
 Info: C:\Projetos\Quartus\ChaChaVerilog\SistemaEmbarcadoChaChaVerilog\testbench\SistemaEmbarcadoChaChaVerilog.ipx described 0 plugins, 3 paths, in 0.05 seconds
 Progress: Loading testbench/SistemaEmbarcadoChaChaVerilog_tb.qsys
-Info: C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/* matched 12 files in 0.05 seconds
+Info: C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/* matched 12 files in 0.06 seconds
 Info: C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/*/* matched 11 files in 0.00 seconds
 Info: C:/Users/domgintoki/.altera.quartus/ip/18.1/**/* matched 0 files in 0.00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
@@ -55,11 +55,11 @@ Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
 Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0.00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0.00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
-Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.00 seconds
-Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.00 seconds
+Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
-Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.13 seconds
-Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.13 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0.16 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.16 seconds
 Progress: 
 Progress: 
 Progress: 
@@ -162,12 +162,12 @@ Info: Reusing file C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVeril
 Info: ChaCha20: "SistemaEmbarcadoChaChaVerilog_inst" instantiated ChaCha20 "ChaCha20"
 Info: CustomIP_0: "SistemaEmbarcadoChaChaVerilog_inst" instantiated CustomIP "CustomIP_0"
 Info: MemoriaPrograma: Starting RTL generation for module 'SistemaEmbarcadoChaChaVerilog_MemoriaPrograma'
-Info: MemoriaPrograma:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SistemaEmbarcadoChaChaVerilog_MemoriaPrograma --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0323_MemoriaPrograma_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0323_MemoriaPrograma_gen//SistemaEmbarcadoChaChaVerilog_MemoriaPrograma_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0323_MemoriaPrograma_gen/  ]
+Info: MemoriaPrograma:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SistemaEmbarcadoChaChaVerilog_MemoriaPrograma --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0007_MemoriaPrograma_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0007_MemoriaPrograma_gen//SistemaEmbarcadoChaChaVerilog_MemoriaPrograma_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0007_MemoriaPrograma_gen/  ]
 Info: MemoriaPrograma: Done RTL generation for module 'SistemaEmbarcadoChaChaVerilog_MemoriaPrograma'
 Info: MemoriaPrograma: "SistemaEmbarcadoChaChaVerilog_inst" instantiated altera_avalon_onchip_memory2 "MemoriaPrograma"
 Info: Processador: "SistemaEmbarcadoChaChaVerilog_inst" instantiated altera_nios2_gen2 "Processador"
 Info: jtag_uart: Starting RTL generation for module 'SistemaEmbarcadoChaChaVerilog_jtag_uart'
-Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SistemaEmbarcadoChaChaVerilog_jtag_uart --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0324_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0324_jtag_uart_gen//SistemaEmbarcadoChaChaVerilog_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0324_jtag_uart_gen/  ]
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SistemaEmbarcadoChaChaVerilog_jtag_uart --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0008_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0008_jtag_uart_gen//SistemaEmbarcadoChaChaVerilog_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0008_jtag_uart_gen/  ]
 Info: jtag_uart: Done RTL generation for module 'SistemaEmbarcadoChaChaVerilog_jtag_uart'
 Info: jtag_uart: "SistemaEmbarcadoChaChaVerilog_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
@@ -179,20 +179,20 @@ Info: mm_interconnect_0: "SistemaEmbarcadoChaChaVerilog_inst" instantiated alter
 Info: irq_mapper: "SistemaEmbarcadoChaChaVerilog_inst" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "SistemaEmbarcadoChaChaVerilog_inst" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'SistemaEmbarcadoChaChaVerilog_Processador_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SistemaEmbarcadoChaChaVerilog_Processador_cpu --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0327_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0327_cpu_gen//SistemaEmbarcadoChaChaVerilog_Processador_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0327_cpu_gen/  ]
-Info: cpu: # 2024.08.14 00:41:10 (*) Starting Nios II generation
-Info: cpu: # 2024.08.14 00:41:10 (*)   Checking for plaintext license.
-Info: cpu: # 2024.08.14 00:41:11 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
-Info: cpu: # 2024.08.14 00:41:11 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2024.08.14 00:41:11 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2024.08.14 00:41:11 (*)   Plaintext license not found.
-Info: cpu: # 2024.08.14 00:41:11 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2024.08.14 00:41:11 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2024.08.14 00:41:11 (*)   Creating all objects for CPU
-Info: cpu: # 2024.08.14 00:41:12 (*)   Creating 'C:/Users/DOMGIN~1/AppData/Local/Temp/alt9948_5998466225215006643.dir/0327_cpu_gen//SistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_waves.do'
-Info: cpu: # 2024.08.14 00:41:12 (*)   Generating RTL from CPU objects
-Info: cpu: # 2024.08.14 00:41:12 (*)   Creating plain-text RTL
-Info: cpu: # 2024.08.14 00:41:12 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SistemaEmbarcadoChaChaVerilog_Processador_cpu --dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0011_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0011_cpu_gen//SistemaEmbarcadoChaChaVerilog_Processador_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0011_cpu_gen/  ]
+Info: cpu: # 2024.08.14 21:12:04 (*) Starting Nios II generation
+Info: cpu: # 2024.08.14 21:12:04 (*)   Checking for plaintext license.
+Info: cpu: # 2024.08.14 21:12:04 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2024.08.14 21:12:04 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2024.08.14 21:12:04 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2024.08.14 21:12:04 (*)   Plaintext license not found.
+Info: cpu: # 2024.08.14 21:12:04 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.08.14 21:12:04 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.08.14 21:12:04 (*)   Creating all objects for CPU
+Info: cpu: # 2024.08.14 21:12:05 (*)   Creating 'C:/Users/DOMGIN~1/AppData/Local/Temp/alt9950_8959302583087530151.dir/0011_cpu_gen//SistemaEmbarcadoChaChaVerilog_Processador_cpu_nios2_waves.do'
+Info: cpu: # 2024.08.14 21:12:05 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.08.14 21:12:05 (*)   Creating plain-text RTL
+Info: cpu: # 2024.08.14 21:12:05 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'SistemaEmbarcadoChaChaVerilog_Processador_cpu'
 Info: cpu: "Processador" instantiated altera_nios2_gen2_unit "cpu"
 Info: Processador_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "Processador_data_master_translator"

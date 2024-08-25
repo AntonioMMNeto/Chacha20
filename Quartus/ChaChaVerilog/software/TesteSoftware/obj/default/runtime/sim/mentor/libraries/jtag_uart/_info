@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Projetos/Quartus/ChaChaVerilog/software/TesteSoftware/obj/default/runtime/sim/mentor
 vSistemaEmbarcadoChaChaVerilog_jtag_uart
-Z1 !s110 1723683614
+Z1 !s110 1724197366
 !i10b 1
 !s100 K8la[_SMOOc@4<CKk1hb^3
 IbzWc5;RZfA>54Y4^49z6f0
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1723683614.000000
+Z7 !s108 1724197366.000000
 Z8 !s107 C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_jtag_uart.v|
 Z9 !s90 -reportprogress|300|C:/Projetos/Quartus/ChaChaVerilog/SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_jtag_uart.v|-work|jtag_uart|
 !i113 1

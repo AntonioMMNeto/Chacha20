@@ -30,10 +30,6 @@
    type="SYSTEM_VERILOG"
    library="rsp_mux" />
  <file
-   path="SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux_002.sv"
-   type="SYSTEM_VERILOG"
-   library="rsp_demux_002" />
- <file
    path="SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux.sv"
    type="SYSTEM_VERILOG"
    library="rsp_demux" />
@@ -201,10 +197,6 @@
    path="SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_MemoriaPrograma.v"
    type="VERILOG"
    library="MemoriaPrograma" />
- <file
-   path="SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/CustomIP.v"
-   type="VERILOG"
-   library="CustomIP_0" />
  <file
    path="SistemaEmbarcadoChaChaVerilog/testbench/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha.v"
    type="VERILOG"

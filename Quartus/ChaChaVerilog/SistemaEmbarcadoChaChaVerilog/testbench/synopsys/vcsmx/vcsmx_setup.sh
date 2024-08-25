@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2024.08.14.21:12:08
+# ACDS 18.1 625 win32 2024.08.25.15:04:21
 
 # ----------------------------------------
 # vcsmx - auto-generated simulation script
@@ -107,7 +107,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2024.08.14.21:12:08
+# ACDS 18.1 625 win32 2024.08.25.15:04:21
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="SistemaEmbarcadoChaChaVerilog_tb"
@@ -152,7 +152,6 @@ mkdir -p ./libraries/error_adapter_0/
 mkdir -p ./libraries/avalon_st_adapter/
 mkdir -p ./libraries/rsp_mux_001/
 mkdir -p ./libraries/rsp_mux/
-mkdir -p ./libraries/rsp_demux_002/
 mkdir -p ./libraries/rsp_demux/
 mkdir -p ./libraries/cmd_mux_002/
 mkdir -p ./libraries/cmd_mux/
@@ -174,7 +173,6 @@ mkdir -p ./libraries/mm_interconnect_0/
 mkdir -p ./libraries/jtag_uart/
 mkdir -p ./libraries/Processador/
 mkdir -p ./libraries/MemoriaPrograma/
-mkdir -p ./libraries/CustomIP_0/
 mkdir -p ./libraries/ChaCha20/
 mkdir -p ./libraries/SistemaEmbarcadoChaChaVerilog_inst_reset_bfm/
 mkdir -p ./libraries/SistemaEmbarcadoChaChaVerilog_inst_clk_bfm/
@@ -222,7 +220,6 @@ if [ $SKIP_COM -eq 0 ]; then
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -work rsp_mux_001                                 
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_mux.sv"                           -work rsp_mux                                     
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -work rsp_mux                                     
-  vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux_002.sv"                     -work rsp_demux_002                               
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_rsp_demux.sv"                         -work rsp_demux                                   
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_mm_interconnect_0_cmd_mux_002.sv"                       -work cmd_mux_002                                 
   vlogan +v2k -sverilog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/altera_merlin_arbitrator.sv"                                                          -work cmd_mux_002                                 
@@ -252,7 +249,6 @@ if [ $SKIP_COM -eq 0 ]; then
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_jtag_uart.v"                                            -work jtag_uart                                   
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_Processador.v"                                          -work Processador                                 
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/SistemaEmbarcadoChaChaVerilog_MemoriaPrograma.v"                                      -work MemoriaPrograma                             
-  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/CustomIP.v"                                                                           -work CustomIP_0                                  
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha.v"                                                                             -work ChaCha20                                    
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha_core.v"                                                                        -work ChaCha20                                    
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/SistemaEmbarcadoChaChaVerilog_tb/simulation/submodules/chacha_qr.v"                                                                          -work ChaCha20                                    
