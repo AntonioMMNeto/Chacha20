@@ -2,12 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define PIO_CHAR_OUT    (int*) 0x61030
-#define PIO_READY_OUT   (int*) 0x61020
-#define PIO_CHAR_IN     (int*) 0x61010
-#define PIO_READY_IN    (int*) 0x61000
-#define MEMORIA_DADOS   (int*) 0x00000
-
 #define INT_BITS 32
 
 unsigned int constant[4] = {0x61707865, 0x3320646e, 0x79622d36, 0x6b206574};  // "expand 32-byte k"
@@ -57,22 +51,6 @@ int main()
         printf("%#08x\n", num);
     }
     printf("\n");
-	//printf("\nEncrypted_message Text: %s\n", encrypted_message);
-	//xor_message(encrypted_message, decrypted_message, 1); // decrypt
-	// printf("\nDecrypted Text: %s\n", decrypted_message);
-
-
-	// bit mais significativo: escrita terminada
-	// bit menos significativo: caractere pronto
-	// *PIO_READY_OUT = 0b10;
-	// *PIO_READY_OUT = 0b00;
-	// for (int i = 0; i < strlen(message); i++) {
-	//   *PIO_READY_OUT = 0b00;
-	//   *PIO_CHAR_OUT = decrypted_message[i];
-	//   *PIO_READY_OUT = 0b01;
-	// }
-	// *PIO_READY_OUT = 0b11;
-
 
 	return 0;
 }
@@ -180,17 +158,17 @@ void xor_message(char *message, char *encrypted_message, int counter) {
 }
 
 void generate_nonce() {
-    // int seed;
-    // // Método 1: Gerar com uma seed fixa.
-    // seed = 5;
+    int seed;
+    // Método 1: Gerar com uma seed fixa.
+    seed = 5;
 
-    // // Método 2: Gerar usando a chave para a seed
-    // for (int i = 0; i < 8; i++) {
-    //     seed |= (key[i] & 0xF) << (i * 4);
-    // }
+    // Método 2: Gerar usando a chave para a seed
+    for (int i = 0; i < 8; i++) {
+        seed |= (key[i] & 0xF) << (i * 4);
+    }
 
-    // srand(seed);
-    // nonce[0] = rand();
-    // nonce[1] = rand();
-    // nonce[2] = rand();
+    srand(seed);
+    nonce[0] = rand();
+    nonce[1] = rand();
+    nonce[2] = rand();
 }
